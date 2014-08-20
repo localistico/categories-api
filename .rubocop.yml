@@ -1,0 +1,35 @@
+AllCops:
+  Include:
+    - Rakefile
+    - config.ru
+  Exclude:
+    - vendor/**/*
+    - db/**/*
+    - bin/**/*
+    - config/unicorn.rb
+
+Lint/HandleExceptions:
+  Exclude:
+    - '**/*'
+
+Style/Documentation:
+  Exclude:
+    - test/**/*
+
+Style/ClassLength:
+  Exclude:
+    - test/**/*
+
+Style/LineLength:
+  Exclude:
+    - config/**/*
+    - app/admin/**/*
+
+Style/StringLiterals:
+  Exclude:
+    - config/**/*
+
+Style/EmptyLines:
+  Exclude:
+    - config/**/*
+
