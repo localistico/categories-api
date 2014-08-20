@@ -86,6 +86,20 @@ class CategoriesControllerTest < ActionController::TestCase
     end
   end
 
+  test 'normalized does not save random services' do
+    assert_difference 'ServiceCategory.count', 4 do
+      get :normalized, service_categories: {
+        foursquare: %w(this),
+        facebook: %w(this),
+        google: %w(this),
+        yelp: %w(this),
+        foo: %w(bar)
+      }
+      assert_response :success
+      assert_equal 0, assigns(:categories).size
+    end
+  end
+
   test 'normalized with assigned categories' do
     ServiceCategory.create!(
       category: 'this',
