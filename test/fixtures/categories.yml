@@ -1,0 +1,3681 @@
+---
+categories_001:
+  id: 1
+  parent_id: 
+  abstract: t
+  en: Factual Places
+  es: Lugares Factual
+  created_at: '2014-08-20 15:27:45.172659'
+  updated_at: '2014-08-20 15:27:45.172659'
+categories_002:
+  id: 2
+  parent_id: 1
+  abstract: f
+  en: Automotive
+  es: Automotriz
+  created_at: '2014-08-20 15:27:45.178875'
+  updated_at: '2014-08-20 15:27:45.178875'
+categories_003:
+  id: 3
+  parent_id: 2
+  abstract: f
+  en: Car Appraisers
+  es: Tasadores de Coches
+  created_at: '2014-08-20 15:27:45.182322'
+  updated_at: '2014-08-20 15:27:45.182322'
+categories_004:
+  id: 4
+  parent_id: 2
+  abstract: f
+  en: Car Dealers and Leasing
+  es: Comerciantes de Automóviles y Arrendamiento
+  created_at: '2014-08-20 15:27:45.185417'
+  updated_at: '2014-08-20 15:27:45.185417'
+categories_005:
+  id: 5
+  parent_id: 4
+  abstract: f
+  en: Used Cars
+  es: Carros Usados
+  created_at: '2014-08-20 15:27:45.188374'
+  updated_at: '2014-08-20 15:27:45.188374'
+categories_006:
+  id: 6
+  parent_id: 2
+  abstract: f
+  en: Car Parts and Accessories
+  es: Partes de Automóviles y Accesorios
+  created_at: '2014-08-20 15:27:45.191307'
+  updated_at: '2014-08-20 15:27:45.191307'
+categories_007:
+  id: 7
+  parent_id: 2
+  abstract: f
+  en: Car Wash and Detail
+  es: Lavacoches y Detalle
+  created_at: '2014-08-20 15:27:45.195345'
+  updated_at: '2014-08-20 15:27:45.195345'
+categories_008:
+  id: 8
+  parent_id: 2
+  abstract: f
+  en: Classic and Antique Car
+  es: Coche Clásico y Antiguo
+  created_at: '2014-08-20 15:27:45.198882'
+  updated_at: '2014-08-20 15:27:45.198882'
+categories_009:
+  id: 9
+  parent_id: 2
+  abstract: f
+  en: Maintenance and Repair
+  es: Mantenimiento y Reparación
+  created_at: '2014-08-20 15:27:45.201946'
+  updated_at: '2014-08-20 15:27:45.201946'
+categories_010:
+  id: 10
+  parent_id: 9
+  abstract: f
+  en: Oil and Lube
+  es: Aceite y Lubricante
+  created_at: '2014-08-20 15:27:45.204965'
+  updated_at: '2014-08-20 15:27:45.204965'
+categories_011:
+  id: 11
+  parent_id: 9
+  abstract: f
+  en: Smog Check
+  es: Comprobación de Niebla Tóxica
+  created_at: '2014-08-20 15:27:45.208111'
+  updated_at: '2014-08-20 15:27:45.208111'
+categories_012:
+  id: 12
+  parent_id: 9
+  abstract: f
+  en: Tires
+  es: Llantas
+  created_at: '2014-08-20 15:27:45.211992'
+  updated_at: '2014-08-20 15:27:45.211992'
+categories_013:
+  id: 13
+  parent_id: 9
+  abstract: f
+  en: Transmissions
+  es: Transmisiones
+  created_at: '2014-08-20 15:27:45.215398'
+  updated_at: '2014-08-20 15:27:45.215398'
+categories_014:
+  id: 14
+  parent_id: 2
+  abstract: f
+  en: Motorcycles, Mopeds and Scooters
+  es: Motocicletas, Ciclomotores y Motonetas
+  created_at: '2014-08-20 15:27:45.218488'
+  updated_at: '2014-08-20 15:27:45.218488'
+categories_015:
+  id: 15
+  parent_id: 14
+  abstract: f
+  en: Repair
+  es: Reparación
+  created_at: '2014-08-20 15:27:45.221518'
+  updated_at: '2014-08-20 15:27:45.221518'
+categories_016:
+  id: 16
+  parent_id: 14
+  abstract: f
+  en: Sales
+  es: Ventas
+  created_at: '2014-08-20 15:27:45.224460'
+  updated_at: '2014-08-20 15:27:45.224460'
+categories_017:
+  id: 17
+  parent_id: 2
+  abstract: f
+  en: RVs and Motor Homes
+  es: Vehículos de Recreación y Autocaravanas
+  created_at: '2014-08-20 15:27:45.228452'
+  updated_at: '2014-08-20 15:27:45.228452'
+categories_018:
+  id: 18
+  parent_id: 2
+  abstract: f
+  en: Salvage Yards
+  es: Patios de Salvamento
+  created_at: '2014-08-20 15:27:45.231737'
+  updated_at: '2014-08-20 15:27:45.231737'
+categories_019:
+  id: 19
+  parent_id: 2
+  abstract: f
+  en: Towing
+  es: Remolque
+  created_at: '2014-08-20 15:27:45.234606'
+  updated_at: '2014-08-20 15:27:45.234606'
+categories_020:
+  id: 20
+  parent_id: 1
+  abstract: f
+  en: Community and Government
+  es: Comunidad y Gobierno
+  created_at: '2014-08-20 15:27:45.237610'
+  updated_at: '2014-08-20 15:27:45.237610'
+categories_021:
+  id: 21
+  parent_id: 20
+  abstract: f
+  en: Animal Shelters and Humane Societies
+  es: Refugios de Animales y Sociedades Humanas
+  created_at: '2014-08-20 15:27:45.240639'
+  updated_at: '2014-08-20 15:27:45.240639'
+categories_022:
+  id: 22
+  parent_id: 20
+  abstract: f
+  en: Cemeteries
+  es: Cementerios
+  created_at: '2014-08-20 15:27:45.244704'
+  updated_at: '2014-08-20 15:27:45.244704'
+categories_023:
+  id: 23
+  parent_id: 20
+  abstract: f
+  en: Day Care and Preschools
+  es: Guardería y Parvularios
+  created_at: '2014-08-20 15:27:45.248303'
+  updated_at: '2014-08-20 15:27:45.248303'
+categories_024:
+  id: 24
+  parent_id: 20
+  abstract: f
+  en: Disabled Persons Services
+  es: Servicios para Personas Deshabilitadas
+  created_at: '2014-08-20 15:27:45.252799'
+  updated_at: '2014-08-20 15:27:45.252799'
+categories_025:
+  id: 25
+  parent_id: 20
+  abstract: f
+  en: Drug and Alcohol Services
+  es: Servicios de Drogas y Licores
+  created_at: '2014-08-20 15:27:45.256965'
+  updated_at: '2014-08-20 15:27:45.256965'
+categories_026:
+  id: 26
+  parent_id: 20
+  abstract: f
+  en: Education
+  es: Educación
+  created_at: '2014-08-20 15:27:45.263210'
+  updated_at: '2014-08-20 15:27:45.263210'
+categories_027:
+  id: 27
+  parent_id: 26
+  abstract: f
+  en: Adult Education
+  es: Educación de Adultos
+  created_at: '2014-08-20 15:27:45.266279'
+  updated_at: '2014-08-20 15:27:45.266279'
+categories_028:
+  id: 28
+  parent_id: 26
+  abstract: f
+  en: Art Lessons and Schools
+  es: Lecciones de Arte y Escuelas
+  created_at: '2014-08-20 15:27:45.269231'
+  updated_at: '2014-08-20 15:27:45.269231'
+categories_029:
+  id: 29
+  parent_id: 26
+  abstract: f
+  en: Colleges and Universities
+  es: Colegios y Universidades
+  created_at: '2014-08-20 15:27:45.272224'
+  updated_at: '2014-08-20 15:27:45.272224'
+categories_030:
+  id: 30
+  parent_id: 26
+  abstract: f
+  en: Computer Training
+  es: Enseñanza para el Uso de la Computadora
+  created_at: '2014-08-20 15:27:45.275597'
+  updated_at: '2014-08-20 15:27:45.275597'
+categories_031:
+  id: 31
+  parent_id: 26
+  abstract: f
+  en: Culinary Lessons and Schools
+  es: Lecciones Culinarias y Escuelas
+  created_at: '2014-08-20 15:27:45.279154'
+  updated_at: '2014-08-20 15:27:45.279154'
+categories_032:
+  id: 32
+  parent_id: 26
+  abstract: f
+  en: Driving Schools
+  es: Autoescuelas
+  created_at: '2014-08-20 15:27:45.282229'
+  updated_at: '2014-08-20 15:27:45.282229'
+categories_033:
+  id: 33
+  parent_id: 26
+  abstract: f
+  en: Fraternities and Sororities
+  es: Fraternidades y Sororidades
+  created_at: '2014-08-20 15:27:45.285163'
+  updated_at: '2014-08-20 15:27:45.285163'
+categories_034:
+  id: 34
+  parent_id: 26
+  abstract: f
+  en: Primary and Secondary Schools
+  es: Escuelas Primaria y Secundaria
+  created_at: '2014-08-20 15:27:45.288065'
+  updated_at: '2014-08-20 15:27:45.288065'
+categories_035:
+  id: 35
+  parent_id: 26
+  abstract: f
+  en: Tutoring and Educational Services
+  es: Tutoría y Servicios Educativos
+  created_at: '2014-08-20 15:27:45.291273'
+  updated_at: '2014-08-20 15:27:45.291273'
+categories_036:
+  id: 36
+  parent_id: 26
+  abstract: f
+  en: Vocational Schools
+  es: Escuelas de Formación Profesional
+  created_at: '2014-08-20 15:27:45.295172'
+  updated_at: '2014-08-20 15:27:45.295172'
+categories_037:
+  id: 37
+  parent_id: 20
+  abstract: f
+  en: Government Departments and Agencies
+  es: Departamentos y Institutos Gubernamentales
+  created_at: '2014-08-20 15:27:45.298495'
+  updated_at: '2014-08-20 15:27:45.298495'
+categories_038:
+  id: 38
+  parent_id: 20
+  abstract: f
+  en: Government Lobbyists
+  es: Cabilderos del Gobierno
+  created_at: '2014-08-20 15:27:45.301444'
+  updated_at: '2014-08-20 15:27:45.301444'
+categories_039:
+  id: 39
+  parent_id: 20
+  abstract: f
+  en: Housing Assistance and Shelters
+  es: Asistencia para la Vivienda y Refugios
+  created_at: '2014-08-20 15:27:45.304451'
+  updated_at: '2014-08-20 15:27:45.304451'
+categories_040:
+  id: 40
+  parent_id: 20
+  abstract: f
+  en: Law Enforcement and Public Safety
+  es: Aplicación de la Ley y Seguridad Pública
+  created_at: '2014-08-20 15:27:45.307410'
+  updated_at: '2014-08-20 15:27:45.307410'
+categories_041:
+  id: 41
+  parent_id: 40
+  abstract: f
+  en: Rescue Services
+  es: Servicios de Rescate
+  created_at: '2014-08-20 15:27:45.311730'
+  updated_at: '2014-08-20 15:27:45.311730'
+categories_042:
+  id: 42
+  parent_id: 40
+  abstract: f
+  en: Fire Stations
+  es: Estaciones de Bomberos
+  created_at: '2014-08-20 15:27:45.314972'
+  updated_at: '2014-08-20 15:27:45.314972'
+categories_043:
+  id: 43
+  parent_id: 40
+  abstract: f
+  en: Police Stations
+  es: Comisarías
+  created_at: '2014-08-20 15:27:45.317817'
+  updated_at: '2014-08-20 15:27:45.317817'
+categories_044:
+  id: 44
+  parent_id: 20
+  abstract: f
+  en: Libraries
+  es: Bibliotecas
+  created_at: '2014-08-20 15:27:45.320869'
+  updated_at: '2014-08-20 15:27:45.320869'
+categories_045:
+  id: 45
+  parent_id: 20
+  abstract: f
+  en: Military
+  es: Ejército
+  created_at: '2014-08-20 15:27:45.323767'
+  updated_at: '2014-08-20 15:27:45.323767'
+categories_046:
+  id: 46
+  parent_id: 45
+  abstract: f
+  en: Bases
+  es: Bases
+  created_at: '2014-08-20 15:27:45.327429'
+  updated_at: '2014-08-20 15:27:45.327429'
+categories_047:
+  id: 47
+  parent_id: 20
+  abstract: f
+  en: Organizations and Associations
+  es: Organizaciones y Asociaciones
+  created_at: '2014-08-20 15:27:45.330528'
+  updated_at: '2014-08-20 15:27:45.330528'
+categories_048:
+  id: 48
+  parent_id: 47
+  abstract: f
+  en: Charities and Non-Profits
+  es: Organizaciones Benéficas y Organizaciones sin Ánimo de Lucro
+  created_at: '2014-08-20 15:27:45.333315'
+  updated_at: '2014-08-20 15:27:45.333315'
+categories_049:
+  id: 49
+  parent_id: 47
+  abstract: f
+  en: Environmental
+  es: Ambiental
+  created_at: '2014-08-20 15:27:45.336230'
+  updated_at: '2014-08-20 15:27:45.336230'
+categories_050:
+  id: 50
+  parent_id: 47
+  abstract: f
+  en: Youth Organizations
+  es: Organizaciones Juveniles
+  created_at: '2014-08-20 15:27:45.339281'
+  updated_at: '2014-08-20 15:27:45.339281'
+categories_051:
+  id: 51
+  parent_id: 20
+  abstract: f
+  en: Post Offices
+  es: Oficinas de Correos
+  created_at: '2014-08-20 15:27:45.343094'
+  updated_at: '2014-08-20 15:27:45.343094'
+categories_052:
+  id: 52
+  parent_id: 20
+  abstract: f
+  en: Public and Social Services
+  es: Servicios Públicos y Sociales
+  created_at: '2014-08-20 15:27:45.346426'
+  updated_at: '2014-08-20 15:27:45.346426'
+categories_053:
+  id: 53
+  parent_id: 20
+  abstract: f
+  en: Religious
+  es: Religioso
+  created_at: '2014-08-20 15:27:45.349340'
+  updated_at: '2014-08-20 15:27:45.349340'
+categories_054:
+  id: 54
+  parent_id: 53
+  abstract: f
+  en: Buddhist Temples
+  es: Templos Budistas
+  created_at: '2014-08-20 15:27:45.352391'
+  updated_at: '2014-08-20 15:27:45.352391'
+categories_055:
+  id: 55
+  parent_id: 53
+  abstract: f
+  en: Churches
+  es: Iglesias
+  created_at: '2014-08-20 15:27:45.355479'
+  updated_at: '2014-08-20 15:27:45.355479'
+categories_056:
+  id: 56
+  parent_id: 53
+  abstract: f
+  en: Hindu Temples
+  es: Templos Hindúes
+  created_at: '2014-08-20 15:27:45.359317'
+  updated_at: '2014-08-20 15:27:45.359317'
+categories_057:
+  id: 57
+  parent_id: 53
+  abstract: f
+  en: Mosques
+  es: Mezquitas
+  created_at: '2014-08-20 15:27:45.362562'
+  updated_at: '2014-08-20 15:27:45.362562'
+categories_058:
+  id: 58
+  parent_id: 53
+  abstract: f
+  en: Synagogues
+  es: Sinagogas
+  created_at: '2014-08-20 15:27:45.365465'
+  updated_at: '2014-08-20 15:27:45.365465'
+categories_059:
+  id: 59
+  parent_id: 20
+  abstract: f
+  en: Senior Citizen Services
+  es: Servicios para Ciudadanos de la Tercera Edad
+  created_at: '2014-08-20 15:27:45.368377'
+  updated_at: '2014-08-20 15:27:45.368377'
+categories_060:
+  id: 60
+  parent_id: 59
+  abstract: f
+  en: Retirement
+  es: Jubilación
+  created_at: '2014-08-20 15:27:45.371264'
+  updated_at: '2014-08-20 15:27:45.371264'
+categories_061:
+  id: 61
+  parent_id: 20
+  abstract: f
+  en: Utility Companies
+  es: Empresas de Servicios Públicos
+  created_at: '2014-08-20 15:27:45.374499'
+  updated_at: '2014-08-20 15:27:45.374499'
+categories_062:
+  id: 62
+  parent_id: 1
+  abstract: f
+  en: Healthcare
+  es: Asistencia Sanitaria
+  created_at: '2014-08-20 15:27:45.378163'
+  updated_at: '2014-08-20 15:27:45.378163'
+categories_063:
+  id: 63
+  parent_id: 62
+  abstract: f
+  en: AIDS Resources
+  es: Recursos para el SIDA
+  created_at: '2014-08-20 15:27:45.381152'
+  updated_at: '2014-08-20 15:27:45.381152'
+categories_064:
+  id: 64
+  parent_id: 62
+  abstract: f
+  en: Assisted Living Services
+  es: Servicios de Vida Asistida
+  created_at: '2014-08-20 15:27:45.384082'
+  updated_at: '2014-08-20 15:27:45.384082'
+categories_065:
+  id: 65
+  parent_id: 64
+  abstract: f
+  en: Caretakers
+  es: Conserjes
+  created_at: '2014-08-20 15:27:45.387148'
+  updated_at: '2014-08-20 15:27:45.387148'
+categories_066:
+  id: 66
+  parent_id: 64
+  abstract: f
+  en: Facilities and Nursing Homes
+  es: Instalaciones y Hogares de Ancianos
+  created_at: '2014-08-20 15:27:45.390331'
+  updated_at: '2014-08-20 15:27:45.390331'
+categories_067:
+  id: 67
+  parent_id: 62
+  abstract: f
+  en: Blood Banks and Centers
+  es: Bancos de Sangre y Centros
+  created_at: '2014-08-20 15:27:45.393878'
+  updated_at: '2014-08-20 15:27:45.393878'
+categories_068:
+  id: 68
+  parent_id: 62
+  abstract: f
+  en: Chiropractors
+  es: Quiroprácticos
+  created_at: '2014-08-20 15:27:45.397213'
+  updated_at: '2014-08-20 15:27:45.397213'
+categories_069:
+  id: 69
+  parent_id: 62
+  abstract: f
+  en: Dentists
+  es: Dentistas
+  created_at: '2014-08-20 15:27:45.400152'
+  updated_at: '2014-08-20 15:27:45.400152'
+categories_070:
+  id: 70
+  parent_id: 62
+  abstract: f
+  en: Emergency Services
+  es: Servicios de Emergencia
+  created_at: '2014-08-20 15:27:45.403172'
+  updated_at: '2014-08-20 15:27:45.403172'
+categories_071:
+  id: 71
+  parent_id: 70
+  abstract: f
+  en: Ambulance
+  es: Ambulancia
+  created_at: '2014-08-20 15:27:45.406144'
+  updated_at: '2014-08-20 15:27:45.406144'
+categories_072:
+  id: 72
+  parent_id: 62
+  abstract: f
+  en: Holistic, Alternative and Naturopathic Medicine
+  es: Medicina Holística, Alternativa y Naturista
+  created_at: '2014-08-20 15:27:45.409797'
+  updated_at: '2014-08-20 15:27:45.409797'
+categories_073:
+  id: 73
+  parent_id: 72
+  abstract: f
+  en: Acupuncture
+  es: Acupuntura
+  created_at: '2014-08-20 15:27:45.413176'
+  updated_at: '2014-08-20 15:27:45.413176'
+categories_074:
+  id: 74
+  parent_id: 62
+  abstract: f
+  en: Hospitals, Clinics and Medical Centers
+  es: Hospitales, Clínicas y Centros Médicos
+  created_at: '2014-08-20 15:27:45.416209'
+  updated_at: '2014-08-20 15:27:45.416209'
+categories_075:
+  id: 75
+  parent_id: 62
+  abstract: f
+  en: Medical Supplies and Labs
+  es: Suministros Médicos y Laboratorios
+  created_at: '2014-08-20 15:27:45.419081'
+  updated_at: '2014-08-20 15:27:45.419081'
+categories_076:
+  id: 76
+  parent_id: 62
+  abstract: f
+  en: Mental Health
+  es: Salud Mental
+  created_at: '2014-08-20 15:27:45.422196'
+  updated_at: '2014-08-20 15:27:45.422196'
+categories_077:
+  id: 77
+  parent_id: 76
+  abstract: f
+  en: Counseling and Therapy
+  es: Asesoramiento y Terapia
+  created_at: '2014-08-20 15:27:45.425694'
+  updated_at: '2014-08-20 15:27:45.425694'
+categories_078:
+  id: 78
+  parent_id: 76
+  abstract: f
+  en: Psychologists
+  es: Psicólogos
+  created_at: '2014-08-20 15:27:45.428962'
+  updated_at: '2014-08-20 15:27:45.428962'
+categories_079:
+  id: 79
+  parent_id: 62
+  abstract: f
+  en: Nurses
+  es: Enfermeras
+  created_at: '2014-08-20 15:27:45.432073'
+  updated_at: '2014-08-20 15:27:45.432073'
+categories_080:
+  id: 80
+  parent_id: 62
+  abstract: f
+  en: Pharmacies
+  es: Farmacias
+  created_at: '2014-08-20 15:27:45.435122'
+  updated_at: '2014-08-20 15:27:45.435122'
+categories_081:
+  id: 81
+  parent_id: 62
+  abstract: f
+  en: Physical Therapy and Rehabilitation
+  es: Terapia Física y Rehabilitación
+  created_at: '2014-08-20 15:27:45.438051'
+  updated_at: '2014-08-20 15:27:45.438051'
+categories_082:
+  id: 82
+  parent_id: 81
+  abstract: f
+  en: Sports Medicine
+  es: Medicina Deportiva
+  created_at: '2014-08-20 15:27:45.441753'
+  updated_at: '2014-08-20 15:27:45.441753'
+categories_083:
+  id: 83
+  parent_id: 62
+  abstract: f
+  en: Physicians
+  es: Médicos
+  created_at: '2014-08-20 15:27:45.445201'
+  updated_at: '2014-08-20 15:27:45.445201'
+categories_084:
+  id: 84
+  parent_id: 83
+  abstract: f
+  en: Anesthesiologists
+  es: Anestesiólogos
+  created_at: '2014-08-20 15:27:45.448288'
+  updated_at: '2014-08-20 15:27:45.448288'
+categories_085:
+  id: 85
+  parent_id: 83
+  abstract: f
+  en: Cardiologists
+  es: Cardiólogos
+  created_at: '2014-08-20 15:27:45.451787'
+  updated_at: '2014-08-20 15:27:45.451787'
+categories_086:
+  id: 86
+  parent_id: 83
+  abstract: f
+  en: Dermatologists
+  es: Dermatólogos
+  created_at: '2014-08-20 15:27:45.455081'
+  updated_at: '2014-08-20 15:27:45.455081'
+categories_087:
+  id: 87
+  parent_id: 83
+  abstract: f
+  en: Ear, Nose and Throat
+  es: Oído, Nariz y Garganta
+  created_at: '2014-08-20 15:27:45.458811'
+  updated_at: '2014-08-20 15:27:45.458811'
+categories_088:
+  id: 88
+  parent_id: 83
+  abstract: f
+  en: Family Medicine
+  es: Medicina Familiar
+  created_at: '2014-08-20 15:27:45.462055'
+  updated_at: '2014-08-20 15:27:45.462055'
+categories_089:
+  id: 89
+  parent_id: 83
+  abstract: f
+  en: Gastroenterologists
+  es: Gastroenterólogos
+  created_at: '2014-08-20 15:27:45.465180'
+  updated_at: '2014-08-20 15:27:45.465180'
+categories_090:
+  id: 90
+  parent_id: 83
+  abstract: f
+  en: General Surgery
+  es: Cirugía General
+  created_at: '2014-08-20 15:27:45.468088'
+  updated_at: '2014-08-20 15:27:45.468088'
+categories_091:
+  id: 91
+  parent_id: 83
+  abstract: f
+  en: Internal Medicine
+  es: Medicina Interna
+  created_at: '2014-08-20 15:27:45.471104'
+  updated_at: '2014-08-20 15:27:45.471104'
+categories_092:
+  id: 92
+  parent_id: 83
+  abstract: f
+  en: Neurologists
+  es: Neurólogos
+  created_at: '2014-08-20 15:27:45.474756'
+  updated_at: '2014-08-20 15:27:45.474756'
+categories_093:
+  id: 93
+  parent_id: 83
+  abstract: f
+  en: Obstetricians and Gynecologists
+  es: Obstetras y Ginecólogos
+  created_at: '2014-08-20 15:27:45.478066'
+  updated_at: '2014-08-20 15:27:45.478066'
+categories_094:
+  id: 94
+  parent_id: 83
+  abstract: f
+  en: Oncologists
+  es: Oncólogos
+  created_at: '2014-08-20 15:27:45.481384'
+  updated_at: '2014-08-20 15:27:45.481384'
+categories_095:
+  id: 95
+  parent_id: 83
+  abstract: f
+  en: Ophthalmologists
+  es: Oftalmólogos
+  created_at: '2014-08-20 15:27:45.484368'
+  updated_at: '2014-08-20 15:27:45.484368'
+categories_096:
+  id: 96
+  parent_id: 83
+  abstract: f
+  en: Orthopedic Surgeons
+  es: Cirujanos Ortopédicos
+  created_at: '2014-08-20 15:27:45.487468'
+  updated_at: '2014-08-20 15:27:45.487468'
+categories_097:
+  id: 97
+  parent_id: 83
+  abstract: f
+  en: Pathologists
+  es: Patólogos
+  created_at: '2014-08-20 15:27:45.491415'
+  updated_at: '2014-08-20 15:27:45.491415'
+categories_098:
+  id: 98
+  parent_id: 83
+  abstract: f
+  en: Pediatricians
+  es: Pediatras
+  created_at: '2014-08-20 15:27:45.495326'
+  updated_at: '2014-08-20 15:27:45.495326'
+categories_099:
+  id: 99
+  parent_id: 83
+  abstract: f
+  en: Plastic Surgeons
+  es: Cirujanos Plásticos
+  created_at: '2014-08-20 15:27:45.498498'
+  updated_at: '2014-08-20 15:27:45.498498'
+categories_100:
+  id: 100
+  parent_id: 83
+  abstract: f
+  en: Psychiatrists
+  es: Psiquiatras
+  created_at: '2014-08-20 15:27:45.501402'
+  updated_at: '2014-08-20 15:27:45.501402'
+categories_101:
+  id: 101
+  parent_id: 83
+  abstract: f
+  en: Radiologists
+  es: Radiólogos
+  created_at: '2014-08-20 15:27:45.504453'
+  updated_at: '2014-08-20 15:27:45.504453'
+categories_102:
+  id: 102
+  parent_id: 83
+  abstract: f
+  en: Respiratory
+  es: Respiratorio
+  created_at: '2014-08-20 15:27:45.508087'
+  updated_at: '2014-08-20 15:27:45.508087'
+categories_103:
+  id: 103
+  parent_id: 83
+  abstract: f
+  en: Urologists
+  es: Urólogos
+  created_at: '2014-08-20 15:27:45.511582'
+  updated_at: '2014-08-20 15:27:45.511582'
+categories_104:
+  id: 104
+  parent_id: 62
+  abstract: f
+  en: Podiatrists
+  es: Podólogos
+  created_at: '2014-08-20 15:27:45.514609'
+  updated_at: '2014-08-20 15:27:45.514609'
+categories_105:
+  id: 105
+  parent_id: 62
+  abstract: f
+  en: Pregnancy and Sexual Health
+  es: Embarazo y Salud Sexual
+  created_at: '2014-08-20 15:27:45.517592'
+  updated_at: '2014-08-20 15:27:45.517592'
+categories_106:
+  id: 106
+  parent_id: 62
+  abstract: f
+  en: Weight Loss and Nutritionists
+  es: Pérdida de Peso y Nutricionistas
+  created_at: '2014-08-20 15:27:45.520619'
+  updated_at: '2014-08-20 15:27:45.520619'
+categories_107:
+  id: 107
+  parent_id: 1
+  abstract: f
+  en: Landmarks
+  es: Lugares Señeros
+  created_at: '2014-08-20 15:27:45.524173'
+  updated_at: '2014-08-20 15:27:45.524173'
+categories_108:
+  id: 108
+  parent_id: 107
+  abstract: f
+  en: Buildings and Structures
+  es: Edificios y Estructuras
+  created_at: '2014-08-20 15:27:45.527456'
+  updated_at: '2014-08-20 15:27:45.527456'
+categories_109:
+  id: 109
+  parent_id: 107
+  abstract: f
+  en: Gardens
+  es: Jardines
+  created_at: '2014-08-20 15:27:45.530668'
+  updated_at: '2014-08-20 15:27:45.530668'
+categories_110:
+  id: 110
+  parent_id: 107
+  abstract: f
+  en: Historic and Protected Sites
+  es: Sitios Históricos y Protegidos
+  created_at: '2014-08-20 15:27:45.533741'
+  updated_at: '2014-08-20 15:27:45.533741'
+categories_111:
+  id: 111
+  parent_id: 107
+  abstract: f
+  en: Monuments and Memorials
+  es: Monumentos y Memoriales
+  created_at: '2014-08-20 15:27:45.536834'
+  updated_at: '2014-08-20 15:27:45.536834'
+categories_112:
+  id: 112
+  parent_id: 107
+  abstract: f
+  en: Natural
+  es: Natural
+  created_at: '2014-08-20 15:27:45.540454'
+  updated_at: '2014-08-20 15:27:45.540454'
+categories_113:
+  id: 113
+  parent_id: 112
+  abstract: f
+  en: Beaches
+  es: Playas
+  created_at: '2014-08-20 15:27:45.543726'
+  updated_at: '2014-08-20 15:27:45.543726'
+categories_114:
+  id: 114
+  parent_id: 112
+  abstract: f
+  en: Mountains
+  es: Montañas
+  created_at: '2014-08-20 15:27:45.547184'
+  updated_at: '2014-08-20 15:27:45.547184'
+categories_115:
+  id: 115
+  parent_id: 112
+  abstract: f
+  en: Forests
+  es: Bosques
+  created_at: '2014-08-20 15:27:45.550285'
+  updated_at: '2014-08-20 15:27:45.550285'
+categories_116:
+  id: 116
+  parent_id: 112
+  abstract: f
+  en: Lakes
+  es: Lagos
+  created_at: '2014-08-20 15:27:45.553370'
+  updated_at: '2014-08-20 15:27:45.553370'
+categories_117:
+  id: 117
+  parent_id: 112
+  abstract: f
+  en: Rivers
+  es: Ríos
+  created_at: '2014-08-20 15:27:45.556867'
+  updated_at: '2014-08-20 15:27:45.556867'
+categories_118:
+  id: 118
+  parent_id: 107
+  abstract: f
+  en: Parks
+  es: Parques
+  created_at: '2014-08-20 15:27:45.560076'
+  updated_at: '2014-08-20 15:27:45.560076'
+categories_119:
+  id: 119
+  parent_id: 118
+  abstract: f
+  en: Natural Parks
+  es: Parques Naturales
+  created_at: '2014-08-20 15:27:45.563448'
+  updated_at: '2014-08-20 15:27:45.563448'
+categories_120:
+  id: 120
+  parent_id: 118
+  abstract: f
+  en: Picnic Areas
+  es: "Áreas de Comer Afuera"
+  created_at: '2014-08-20 15:27:45.566675'
+  updated_at: '2014-08-20 15:27:45.566675'
+categories_121:
+  id: 121
+  parent_id: 118
+  abstract: f
+  en: Playgrounds
+  es: Patios de Recreo
+  created_at: '2014-08-20 15:27:45.569574'
+  updated_at: '2014-08-20 15:27:45.569574'
+categories_122:
+  id: 122
+  parent_id: 118
+  abstract: f
+  en: Urban Parks
+  es: Parques Urbanos
+  created_at: '2014-08-20 15:27:45.573710'
+  updated_at: '2014-08-20 15:27:45.573710'
+categories_123:
+  id: 123
+  parent_id: 1
+  abstract: f
+  en: Retail
+  es: Venta al por Menor
+  created_at: '2014-08-20 15:27:45.577055'
+  updated_at: '2014-08-20 15:27:45.577055'
+categories_124:
+  id: 124
+  parent_id: 123
+  abstract: f
+  en: Adult
+  es: Adulto
+  created_at: '2014-08-20 15:27:45.581130'
+  updated_at: '2014-08-20 15:27:45.581130'
+categories_125:
+  id: 125
+  parent_id: 123
+  abstract: f
+  en: Antiques
+  es: Antigüedades
+  created_at: '2014-08-20 15:27:45.584533'
+  updated_at: '2014-08-20 15:27:45.584533'
+categories_126:
+  id: 126
+  parent_id: 123
+  abstract: f
+  en: Arts and Crafts
+  es: Artes y Artesanía
+  created_at: '2014-08-20 15:27:45.588110'
+  updated_at: '2014-08-20 15:27:45.588110'
+categories_127:
+  id: 127
+  parent_id: 123
+  abstract: f
+  en: Auctions
+  es: Subastas
+  created_at: '2014-08-20 15:27:45.591542'
+  updated_at: '2014-08-20 15:27:45.591542'
+categories_128:
+  id: 128
+  parent_id: 123
+  abstract: f
+  en: Beauty Products
+  es: Productos de Belleza
+  created_at: '2014-08-20 15:27:45.594782'
+  updated_at: '2014-08-20 15:27:45.594782'
+categories_129:
+  id: 129
+  parent_id: 123
+  abstract: f
+  en: Bicycles
+  es: Bicicletas
+  created_at: '2014-08-20 15:27:45.598001'
+  updated_at: '2014-08-20 15:27:45.598001'
+categories_130:
+  id: 130
+  parent_id: 123
+  abstract: f
+  en: Bookstores
+  es: Librerías
+  created_at: '2014-08-20 15:27:45.601154'
+  updated_at: '2014-08-20 15:27:45.601154'
+categories_131:
+  id: 131
+  parent_id: 123
+  abstract: f
+  en: Cards and Stationery
+  es: Tarjetas y Papelería
+  created_at: '2014-08-20 15:27:45.605128'
+  updated_at: '2014-08-20 15:27:45.605128'
+categories_132:
+  id: 132
+  parent_id: 123
+  abstract: f
+  en: Children
+  es: Niños
+  created_at: '2014-08-20 15:27:45.609090'
+  updated_at: '2014-08-20 15:27:45.609090'
+categories_133:
+  id: 133
+  parent_id: 123
+  abstract: f
+  en: Computers and Electronics
+  es: Computadoras y Electrónica
+  created_at: '2014-08-20 15:27:45.612307'
+  updated_at: '2014-08-20 15:27:45.612307'
+categories_134:
+  id: 134
+  parent_id: 133
+  abstract: f
+  en: Cameras
+  es: Cámaras
+  created_at: '2014-08-20 15:27:45.615545'
+  updated_at: '2014-08-20 15:27:45.615545'
+categories_135:
+  id: 135
+  parent_id: 133
+  abstract: f
+  en: Mobile Phones
+  es: Teléfonos Móviles
+  created_at: '2014-08-20 15:27:45.622957'
+  updated_at: '2014-08-20 15:27:45.622957'
+categories_136:
+  id: 136
+  parent_id: 133
+  abstract: f
+  en: Video Games
+  es: Videojuegos
+  created_at: '2014-08-20 15:27:45.626272'
+  updated_at: '2014-08-20 15:27:45.626272'
+categories_137:
+  id: 137
+  parent_id: 123
+  abstract: f
+  en: Construction Supplies
+  es: Suministros para la Construcción
+  created_at: '2014-08-20 15:27:45.629612'
+  updated_at: '2014-08-20 15:27:45.629612'
+categories_138:
+  id: 138
+  parent_id: 123
+  abstract: f
+  en: Convenience Stores
+  es: Tiendas de Conveniencia
+  created_at: '2014-08-20 15:27:45.632773'
+  updated_at: '2014-08-20 15:27:45.632773'
+categories_139:
+  id: 139
+  parent_id: 123
+  abstract: f
+  en: Costumes
+  es: Disfraces
+  created_at: '2014-08-20 15:27:45.635972'
+  updated_at: '2014-08-20 15:27:45.635972'
+categories_140:
+  id: 140
+  parent_id: 123
+  abstract: f
+  en: Dance and Music
+  es: Baile y Música
+  created_at: '2014-08-20 15:27:45.640861'
+  updated_at: '2014-08-20 15:27:45.640861'
+categories_141:
+  id: 141
+  parent_id: 123
+  abstract: f
+  en: Department Stores
+  es: Tiendas Departamentales
+  created_at: '2014-08-20 15:27:45.644253'
+  updated_at: '2014-08-20 15:27:45.644253'
+categories_142:
+  id: 142
+  parent_id: 123
+  abstract: f
+  en: Fashion
+  es: Moda
+  created_at: '2014-08-20 15:27:45.647440'
+  updated_at: '2014-08-20 15:27:45.647440'
+categories_143:
+  id: 143
+  parent_id: 142
+  abstract: f
+  en: Clothing and Accessories
+  es: Ropa y Accesorios
+  created_at: '2014-08-20 15:27:45.650916'
+  updated_at: '2014-08-20 15:27:45.650916'
+categories_144:
+  id: 144
+  parent_id: 142
+  abstract: f
+  en: Jewelry and Watches
+  es: Joyería y Relojes
+  created_at: '2014-08-20 15:27:45.655047'
+  updated_at: '2014-08-20 15:27:45.655047'
+categories_145:
+  id: 145
+  parent_id: 142
+  abstract: f
+  en: Shoes
+  es: Zapatos
+  created_at: '2014-08-20 15:27:45.658630'
+  updated_at: '2014-08-20 15:27:45.658630'
+categories_146:
+  id: 146
+  parent_id: 142
+  abstract: f
+  en: Swimwear
+  es: Trajes de Baño
+  created_at: '2014-08-20 15:27:45.661881'
+  updated_at: '2014-08-20 15:27:45.661881'
+categories_147:
+  id: 147
+  parent_id: 123
+  abstract: f
+  en: Flea Markets
+  es: Mercadillo
+  created_at: '2014-08-20 15:27:45.665016'
+  updated_at: '2014-08-20 15:27:45.665016'
+categories_148:
+  id: 148
+  parent_id: 123
+  abstract: f
+  en: Florists
+  es: Floristas
+  created_at: '2014-08-20 15:27:45.668038'
+  updated_at: '2014-08-20 15:27:45.668038'
+categories_149:
+  id: 149
+  parent_id: 123
+  abstract: f
+  en: Food and Beverage
+  es: Comida y Bebida
+  created_at: '2014-08-20 15:27:45.672021'
+  updated_at: '2014-08-20 15:27:45.672021'
+categories_150:
+  id: 150
+  parent_id: 149
+  abstract: f
+  en: Beer, Wine and Spirits
+  es: Cerveza, Vino y Licores
+  created_at: '2014-08-20 15:27:45.675296'
+  updated_at: '2014-08-20 15:27:45.675296'
+categories_151:
+  id: 151
+  parent_id: 149
+  abstract: f
+  en: Candy Stores
+  es: Tiendas de Dulces
+  created_at: '2014-08-20 15:27:45.678438'
+  updated_at: '2014-08-20 15:27:45.678438'
+categories_152:
+  id: 152
+  parent_id: 149
+  abstract: f
+  en: Cheese
+  es: Queso
+  created_at: '2014-08-20 15:27:45.681489'
+  updated_at: '2014-08-20 15:27:45.681489'
+categories_153:
+  id: 153
+  parent_id: 149
+  abstract: f
+  en: Chocolate
+  es: Chocolate
+  created_at: '2014-08-20 15:27:45.684510'
+  updated_at: '2014-08-20 15:27:45.684510'
+categories_154:
+  id: 154
+  parent_id: 149
+  abstract: f
+  en: Farmers' Markets
+  es: Mercado al Aire Libre
+  created_at: '2014-08-20 15:27:45.688022'
+  updated_at: '2014-08-20 15:27:45.688022'
+categories_155:
+  id: 155
+  parent_id: 149
+  abstract: f
+  en: Health and Diet Food
+  es: Salud y Dieta Alimentaria
+  created_at: '2014-08-20 15:27:45.692307'
+  updated_at: '2014-08-20 15:27:45.692307'
+categories_156:
+  id: 156
+  parent_id: 149
+  abstract: f
+  en: Kosher
+  es: Comida o Bebida Autorizado por la Ley Judía
+  created_at: '2014-08-20 15:27:45.695748'
+  updated_at: '2014-08-20 15:27:45.695748'
+categories_157:
+  id: 157
+  parent_id: 123
+  abstract: f
+  en: Furniture and Decor
+  es: Muebles y Decoración
+  created_at: '2014-08-20 15:27:45.698822'
+  updated_at: '2014-08-20 15:27:45.698822'
+categories_158:
+  id: 158
+  parent_id: 123
+  abstract: f
+  en: Gift and Novelty
+  es: Regalo y Novedad
+  created_at: '2014-08-20 15:27:45.702029'
+  updated_at: '2014-08-20 15:27:45.702029'
+categories_159:
+  id: 159
+  parent_id: 123
+  abstract: f
+  en: Glasses and Optometrist
+  es: Gafas y Optometrista
+  created_at: '2014-08-20 15:27:45.706413'
+  updated_at: '2014-08-20 15:27:45.706413'
+categories_160:
+  id: 160
+  parent_id: 123
+  abstract: f
+  en: Hobby and Collectibles
+  es: Pasatiempo Favorito y Coleccionables
+  created_at: '2014-08-20 15:27:45.709550'
+  updated_at: '2014-08-20 15:27:45.709550'
+categories_161:
+  id: 161
+  parent_id: 123
+  abstract: f
+  en: Luggage
+  es: Equipaje
+  created_at: '2014-08-20 15:27:45.712836'
+  updated_at: '2014-08-20 15:27:45.712836'
+categories_162:
+  id: 162
+  parent_id: 123
+  abstract: f
+  en: Music, Video and DVD
+  es: Música, Vídeo y DVD
+  created_at: '2014-08-20 15:27:45.715974'
+  updated_at: '2014-08-20 15:27:45.715974'
+categories_163:
+  id: 163
+  parent_id: 123
+  abstract: f
+  en: Newsstands
+  es: Puestos de Periódicos
+  created_at: '2014-08-20 15:27:45.719822'
+  updated_at: '2014-08-20 15:27:45.719822'
+categories_164:
+  id: 164
+  parent_id: 123
+  abstract: f
+  en: Nurseries and Garden Centers
+  es: Guarderías y Centros de Jardinería
+  created_at: '2014-08-20 15:27:45.723208'
+  updated_at: '2014-08-20 15:27:45.723208'
+categories_165:
+  id: 165
+  parent_id: 123
+  abstract: f
+  en: Outlet
+  es: Tienda de Venta al por Menor
+  created_at: '2014-08-20 15:27:45.726340'
+  updated_at: '2014-08-20 15:27:45.726340'
+categories_166:
+  id: 166
+  parent_id: 123
+  abstract: f
+  en: Pawn Shops
+  es: Casas de Empeños
+  created_at: '2014-08-20 15:27:45.729516'
+  updated_at: '2014-08-20 15:27:45.729516'
+categories_167:
+  id: 167
+  parent_id: 123
+  abstract: f
+  en: Pets
+  es: Mascotas
+  created_at: '2014-08-20 15:27:45.732737'
+  updated_at: '2014-08-20 15:27:45.732737'
+categories_168:
+  id: 168
+  parent_id: 123
+  abstract: f
+  en: Photos and Frames
+  es: Fotos y Cuadros
+  created_at: '2014-08-20 15:27:45.737140'
+  updated_at: '2014-08-20 15:27:45.737140'
+categories_169:
+  id: 169
+  parent_id: 123
+  abstract: f
+  en: Shopping Centers and Malls
+  es: Centros Comerciales y Centros Comerciales
+  created_at: '2014-08-20 15:27:45.740824'
+  updated_at: '2014-08-20 15:27:45.740824'
+categories_170:
+  id: 170
+  parent_id: 123
+  abstract: f
+  en: Sporting Goods
+  es: Mercancías Deportivos
+  created_at: '2014-08-20 15:27:45.743852'
+  updated_at: '2014-08-20 15:27:45.743852'
+categories_171:
+  id: 171
+  parent_id: 123
+  abstract: f
+  en: Supermarkets and Groceries
+  es: Supermercados y Comestibles
+  created_at: '2014-08-20 15:27:45.747144'
+  updated_at: '2014-08-20 15:27:45.747144'
+categories_172:
+  id: 172
+  parent_id: 123
+  abstract: f
+  en: Tobacco
+  es: Tabaco
+  created_at: '2014-08-20 15:27:45.750262'
+  updated_at: '2014-08-20 15:27:45.750262'
+categories_173:
+  id: 173
+  parent_id: 123
+  abstract: f
+  en: Toys
+  es: Juguetes
+  created_at: '2014-08-20 15:27:45.754348'
+  updated_at: '2014-08-20 15:27:45.754348'
+categories_174:
+  id: 174
+  parent_id: 123
+  abstract: f
+  en: Vintage and Thrift
+  es: De época y Ahorro
+  created_at: '2014-08-20 15:27:45.757764'
+  updated_at: '2014-08-20 15:27:45.757764'
+categories_175:
+  id: 175
+  parent_id: 123
+  abstract: f
+  en: Warehouses and Wholesale Stores
+  es: Almacenes y Tiendas de Venta al Por Mayor
+  created_at: '2014-08-20 15:27:45.760817'
+  updated_at: '2014-08-20 15:27:45.760817'
+categories_176:
+  id: 176
+  parent_id: 123
+  abstract: f
+  en: Wedding and Bridal
+  es: Boda y Nupcial
+  created_at: '2014-08-20 15:27:45.764022'
+  updated_at: '2014-08-20 15:27:45.764022'
+categories_177:
+  id: 177
+  parent_id: 1
+  abstract: f
+  en: Services and Supplies
+  es: Servicios y Suministros
+  created_at: '2014-08-20 15:27:45.767164'
+  updated_at: '2014-08-20 15:27:45.767164'
+categories_178:
+  id: 178
+  parent_id: 177
+  abstract: f
+  en: Business and Strategy Consulting
+  es: Consulta de Negocios y Estrategia
+  created_at: '2014-08-20 15:27:45.770775'
+  updated_at: '2014-08-20 15:27:45.770775'
+categories_179:
+  id: 179
+  parent_id: 177
+  abstract: f
+  en: Industrial Machinery and Vehicles
+  es: Vehículos y Maquinaria Industrial
+  created_at: '2014-08-20 15:27:45.774227'
+  updated_at: '2014-08-20 15:27:45.774227'
+categories_180:
+  id: 180
+  parent_id: 177
+  abstract: f
+  en: Logging and Sawmills
+  es: Explotación Forestal y Aserraderos
+  created_at: '2014-08-20 15:27:45.777912'
+  updated_at: '2014-08-20 15:27:45.777912'
+categories_181:
+  id: 181
+  parent_id: 177
+  abstract: f
+  en: Metals
+  es: Metales
+  created_at: '2014-08-20 15:27:45.781100'
+  updated_at: '2014-08-20 15:27:45.781100'
+categories_182:
+  id: 182
+  parent_id: 177
+  abstract: f
+  en: Packaging
+  es: Embalaje
+  created_at: '2014-08-20 15:27:45.784135'
+  updated_at: '2014-08-20 15:27:45.784135'
+categories_183:
+  id: 183
+  parent_id: 177
+  abstract: f
+  en: Petroleum
+  es: Petróleo
+  created_at: '2014-08-20 15:27:45.788002'
+  updated_at: '2014-08-20 15:27:45.788002'
+categories_184:
+  id: 184
+  parent_id: 177
+  abstract: f
+  en: Plastics
+  es: Plásticos
+  created_at: '2014-08-20 15:27:45.791303'
+  updated_at: '2014-08-20 15:27:45.791303'
+categories_185:
+  id: 185
+  parent_id: 177
+  abstract: f
+  en: Refrigeration and Ice
+  es: Refrigeración y Hielo
+  created_at: '2014-08-20 15:27:45.794483'
+  updated_at: '2014-08-20 15:27:45.794483'
+categories_186:
+  id: 186
+  parent_id: 177
+  abstract: f
+  en: Rubber
+  es: Goma
+  created_at: '2014-08-20 15:27:45.797790'
+  updated_at: '2014-08-20 15:27:45.797790'
+categories_187:
+  id: 187
+  parent_id: 177
+  abstract: f
+  en: Scientific
+  es: Científico
+  created_at: '2014-08-20 15:27:45.800721'
+  updated_at: '2014-08-20 15:27:45.800721'
+categories_188:
+  id: 188
+  parent_id: 177
+  abstract: f
+  en: Security and Safety
+  es: Seguridad y Seguridad
+  created_at: '2014-08-20 15:27:45.805034'
+  updated_at: '2014-08-20 15:27:45.805034'
+categories_189:
+  id: 189
+  parent_id: 177
+  abstract: f
+  en: Telecommunication Services
+  es: Servicios de Telecomunicaciones
+  created_at: '2014-08-20 15:27:45.808586'
+  updated_at: '2014-08-20 15:27:45.808586'
+categories_190:
+  id: 190
+  parent_id: 177
+  abstract: f
+  en: Textiles
+  es: Textiles
+  created_at: '2014-08-20 15:27:45.811630'
+  updated_at: '2014-08-20 15:27:45.811630'
+categories_191:
+  id: 191
+  parent_id: 177
+  abstract: f
+  en: Water and Waste Management
+  es: Agua y Gestión de Residuos
+  created_at: '2014-08-20 15:27:45.814756'
+  updated_at: '2014-08-20 15:27:45.814756'
+categories_192:
+  id: 192
+  parent_id: 177
+  abstract: f
+  en: Welding
+  es: Soldadura
+  created_at: '2014-08-20 15:27:45.817781'
+  updated_at: '2014-08-20 15:27:45.817781'
+categories_193:
+  id: 193
+  parent_id: 177
+  abstract: f
+  en: Advertising and Marketing
+  es: Publicidad y Mercadotecnia
+  created_at: '2014-08-20 15:27:45.822108'
+  updated_at: '2014-08-20 15:27:45.822108'
+categories_194:
+  id: 194
+  parent_id: 193
+  abstract: f
+  en: Advertising Agencies and Media Buyers
+  es: Agencias de Publicidad y Compradores de Medios de Comunicación
+  created_at: '2014-08-20 15:27:45.825336'
+  updated_at: '2014-08-20 15:27:45.825336'
+categories_195:
+  id: 195
+  parent_id: 193
+  abstract: f
+  en: Creative Services
+  es: Servicios Creativos
+  created_at: '2014-08-20 15:27:45.828456'
+  updated_at: '2014-08-20 15:27:45.828456'
+categories_196:
+  id: 196
+  parent_id: 193
+  abstract: f
+  en: Direct Mail and Email Marketing Services
+  es: Correo Directo y Servicios de Mercadotecnia por Correo Electrónico
+  created_at: '2014-08-20 15:27:45.832111'
+  updated_at: '2014-08-20 15:27:45.832111'
+categories_197:
+  id: 197
+  parent_id: 193
+  abstract: f
+  en: Market Research and Consulting
+  es: Investigación del Mercado y Consulta
+  created_at: '2014-08-20 15:27:45.835940'
+  updated_at: '2014-08-20 15:27:45.835940'
+categories_198:
+  id: 198
+  parent_id: 193
+  abstract: f
+  en: Online Advertising
+  es: Publicidad en Línea
+  created_at: '2014-08-20 15:27:45.839337'
+  updated_at: '2014-08-20 15:27:45.839337'
+categories_199:
+  id: 199
+  parent_id: 193
+  abstract: f
+  en: Print, TV, Radio and Outdoor Advertising
+  es: Publicidad en Prensa, Televisión, Radio y Exterior
+  created_at: '2014-08-20 15:27:45.842485'
+  updated_at: '2014-08-20 15:27:45.842485'
+categories_200:
+  id: 200
+  parent_id: 193
+  abstract: f
+  en: Promotional Items
+  es: Artículos Promocionales
+  created_at: '2014-08-20 15:27:45.845592'
+  updated_at: '2014-08-20 15:27:45.845592'
+categories_201:
+  id: 201
+  parent_id: 193
+  abstract: f
+  en: Public Relations
+  es: Relaciones Públicas
+  created_at: '2014-08-20 15:27:45.848649'
+  updated_at: '2014-08-20 15:27:45.848649'
+categories_202:
+  id: 202
+  parent_id: 193
+  abstract: f
+  en: Search Engine Marketing and Optimization
+  es: Mercadotecnia por Motor de Búsqueda y Optimización
+  created_at: '2014-08-20 15:27:45.852861'
+  updated_at: '2014-08-20 15:27:45.852861'
+categories_203:
+  id: 203
+  parent_id: 193
+  abstract: f
+  en: Writing, Copywriting and Technical Writing
+  es: Escritura, Registrar como Propiedad Literaria y Escritura Técnica
+  created_at: '2014-08-20 15:27:45.856493'
+  updated_at: '2014-08-20 15:27:45.856493'
+categories_204:
+  id: 204
+  parent_id: 177
+  abstract: f
+  en: Agriculture and Forestry
+  es: Agricultura y Silvicultura
+  created_at: '2014-08-20 15:27:45.859526'
+  updated_at: '2014-08-20 15:27:45.859526'
+categories_205:
+  id: 205
+  parent_id: 177
+  abstract: f
+  en: Art Restoration
+  es: Restauración de Arte
+  created_at: '2014-08-20 15:27:45.862571'
+  updated_at: '2014-08-20 15:27:45.862571'
+categories_206:
+  id: 206
+  parent_id: 177
+  abstract: f
+  en: Audiovisual
+  es: Audiovisual
+  created_at: '2014-08-20 15:27:45.865953'
+  updated_at: '2014-08-20 15:27:45.865953'
+categories_207:
+  id: 207
+  parent_id: 177
+  abstract: f
+  en: Automation and Control Systems
+  es: Automatización y Sistemas de Control
+  created_at: '2014-08-20 15:27:45.869360'
+  updated_at: '2014-08-20 15:27:45.869360'
+categories_208:
+  id: 208
+  parent_id: 177
+  abstract: f
+  en: Chemicals and Gasses
+  es: Productos Químicos y Gases
+  created_at: '2014-08-20 15:27:45.872788'
+  updated_at: '2014-08-20 15:27:45.872788'
+categories_209:
+  id: 209
+  parent_id: 177
+  abstract: f
+  en: Computers
+  es: Computadoras
+  created_at: '2014-08-20 15:27:45.878716'
+  updated_at: '2014-08-20 15:27:45.878716'
+categories_210:
+  id: 210
+  parent_id: 177
+  abstract: f
+  en: Corporate HQ
+  es: Sede Corporativa Central
+  created_at: '2014-08-20 15:27:45.882048'
+  updated_at: '2014-08-20 15:27:45.882048'
+categories_211:
+  id: 211
+  parent_id: 177
+  abstract: f
+  en: Electrical Equipment
+  es: Equipos Eléctricos
+  created_at: '2014-08-20 15:27:45.885647'
+  updated_at: '2014-08-20 15:27:45.885647'
+categories_212:
+  id: 212
+  parent_id: 177
+  abstract: f
+  en: Employment Agencies
+  es: Agencias de Empleo
+  created_at: '2014-08-20 15:27:45.889027'
+  updated_at: '2014-08-20 15:27:45.889027'
+categories_213:
+  id: 213
+  parent_id: 177
+  abstract: f
+  en: Engineering
+  es: Ingeniería
+  created_at: '2014-08-20 15:27:45.892165'
+  updated_at: '2014-08-20 15:27:45.892165'
+categories_214:
+  id: 214
+  parent_id: 177
+  abstract: f
+  en: Entertainment
+  es: Entretenimiento
+  created_at: '2014-08-20 15:27:45.895408'
+  updated_at: '2014-08-20 15:27:45.895408'
+categories_215:
+  id: 215
+  parent_id: 214
+  abstract: f
+  en: Media
+  es: Los Medios de Comunicación
+  created_at: '2014-08-20 15:27:45.899002'
+  updated_at: '2014-08-20 15:27:45.899002'
+categories_216:
+  id: 216
+  parent_id: 177
+  abstract: f
+  en: Equipment Rental
+  es: Alquiler de Equipos
+  created_at: '2014-08-20 15:27:45.902743'
+  updated_at: '2014-08-20 15:27:45.902743'
+categories_217:
+  id: 217
+  parent_id: 177
+  abstract: f
+  en: Events and Event Planning
+  es: Eventos y Planificación de Eventos
+  created_at: '2014-08-20 15:27:45.905989'
+  updated_at: '2014-08-20 15:27:45.905989'
+categories_218:
+  id: 218
+  parent_id: 221
+  abstract: f
+  en: ATMs
+  es: Cajeros Automáticos
+  created_at: '2014-08-20 15:27:45.908943'
+  updated_at: '2014-08-20 15:27:45.908943'
+categories_219:
+  id: 219
+  parent_id: 177
+  abstract: f
+  en: Financial
+  es: Financiero
+  created_at: '2014-08-20 15:27:45.940758'
+  updated_at: '2014-08-20 15:27:45.940758'
+categories_220:
+  id: 220
+  parent_id: 219
+  abstract: f
+  en: Accounting and Bookkeeping
+  es: Contabilidad y Teneduría de Libros
+  created_at: '2014-08-20 15:27:45.949833'
+  updated_at: '2014-08-20 15:27:45.949833'
+categories_221:
+  id: 221
+  parent_id: 219
+  abstract: f
+  en: Banking and Finance
+  es: Bancaria y Finanzas
+  created_at: '2014-08-20 15:27:45.953436'
+  updated_at: '2014-08-20 15:27:45.953436'
+categories_222:
+  id: 222
+  parent_id: 219
+  abstract: f
+  en: Business Brokers and Franchises
+  es: Agentes Corredores de Negocios y Franquicias
+  created_at: '2014-08-20 15:27:45.956869'
+  updated_at: '2014-08-20 15:27:45.956869'
+categories_223:
+  id: 223
+  parent_id: 219
+  abstract: f
+  en: Check Cashing
+  es: Cambio de Cheques
+  created_at: '2014-08-20 15:27:45.959850'
+  updated_at: '2014-08-20 15:27:45.959850'
+categories_224:
+  id: 224
+  parent_id: 219
+  abstract: f
+  en: Collections
+  es: Colecciones
+  created_at: '2014-08-20 15:27:45.963013'
+  updated_at: '2014-08-20 15:27:45.963013'
+categories_225:
+  id: 225
+  parent_id: 219
+  abstract: f
+  en: Financial Planning and Investments
+  es: Planificación Financiera e Inversiones
+  created_at: '2014-08-20 15:27:45.966098'
+  updated_at: '2014-08-20 15:27:45.966098'
+categories_226:
+  id: 226
+  parent_id: 219
+  abstract: f
+  en: Fund Raising
+  es: Recaudación de Fondos
+  created_at: '2014-08-20 15:27:45.970109'
+  updated_at: '2014-08-20 15:27:45.970109'
+categories_227:
+  id: 227
+  parent_id: 219
+  abstract: f
+  en: Loans and Mortgages
+  es: Préstamos e Hipotecas
+  created_at: '2014-08-20 15:27:45.973666'
+  updated_at: '2014-08-20 15:27:45.973666'
+categories_228:
+  id: 228
+  parent_id: 219
+  abstract: f
+  en: Stock Brokers
+  es: Corredores de Bolsa
+  created_at: '2014-08-20 15:27:45.976774'
+  updated_at: '2014-08-20 15:27:45.976774'
+categories_229:
+  id: 229
+  parent_id: 219
+  abstract: f
+  en: Student Aid and Grants
+  es: Ayuda Estudiantil y Subvenciones
+  created_at: '2014-08-20 15:27:45.979785'
+  updated_at: '2014-08-20 15:27:45.979785'
+categories_230:
+  id: 230
+  parent_id: 177
+  abstract: f
+  en: Food and Beverage
+  es: Comida y Bebida
+  created_at: '2014-08-20 15:27:45.982886'
+  updated_at: '2014-08-20 15:27:45.982886'
+categories_231:
+  id: 231
+  parent_id: 230
+  abstract: f
+  en: Catering
+  es: Hostelería
+  created_at: '2014-08-20 15:27:45.986249'
+  updated_at: '2014-08-20 15:27:45.986249'
+categories_232:
+  id: 232
+  parent_id: 230
+  abstract: f
+  en: Distribution
+  es: Distribución
+  created_at: '2014-08-20 15:27:45.989534'
+  updated_at: '2014-08-20 15:27:45.989534'
+categories_233:
+  id: 233
+  parent_id: 177
+  abstract: f
+  en: Funeral Services
+  es: Servicios Funerarios
+  created_at: '2014-08-20 15:27:45.992680'
+  updated_at: '2014-08-20 15:27:45.992680'
+categories_234:
+  id: 234
+  parent_id: 177
+  abstract: f
+  en: Geological
+  es: Geológica
+  created_at: '2014-08-20 15:27:45.995790'
+  updated_at: '2014-08-20 15:27:45.995790'
+categories_235:
+  id: 235
+  parent_id: 177
+  abstract: f
+  en: Home Improvement
+  es: Mejoramiento de Casa
+  created_at: '2014-08-20 15:27:45.998957'
+  updated_at: '2014-08-20 15:27:45.998957'
+categories_236:
+  id: 236
+  parent_id: 235
+  abstract: f
+  en: Architects
+  es: Arquitectos
+  created_at: '2014-08-20 15:27:46.002371'
+  updated_at: '2014-08-20 15:27:46.002371'
+categories_237:
+  id: 237
+  parent_id: 235
+  abstract: f
+  en: Carpenters
+  es: Carpinteros
+  created_at: '2014-08-20 15:27:46.005791'
+  updated_at: '2014-08-20 15:27:46.005791'
+categories_238:
+  id: 238
+  parent_id: 235
+  abstract: f
+  en: Carpet and Flooring
+  es: Alfombras y Suelos
+  created_at: '2014-08-20 15:27:46.009184'
+  updated_at: '2014-08-20 15:27:46.009184'
+categories_239:
+  id: 239
+  parent_id: 235
+  abstract: f
+  en: Contractors
+  es: Contratistas
+  created_at: '2014-08-20 15:27:46.012544'
+  updated_at: '2014-08-20 15:27:46.012544'
+categories_240:
+  id: 240
+  parent_id: 239
+  abstract: f
+  en: Bathrooms
+  es: Baños
+  created_at: '2014-08-20 15:27:46.015703'
+  updated_at: '2014-08-20 15:27:46.015703'
+categories_241:
+  id: 241
+  parent_id: 239
+  abstract: f
+  en: Deck and Patio
+  es: Cubierta y Patio
+  created_at: '2014-08-20 15:27:46.020127'
+  updated_at: '2014-08-20 15:27:46.020127'
+categories_242:
+  id: 242
+  parent_id: 239
+  abstract: f
+  en: Sewer
+  es: Alcantarilla
+  created_at: '2014-08-20 15:27:46.028344'
+  updated_at: '2014-08-20 15:27:46.028344'
+categories_243:
+  id: 243
+  parent_id: 235
+  abstract: f
+  en: Doors and Windows
+  es: Puertas y Ventanas
+  created_at: '2014-08-20 15:27:46.033949'
+  updated_at: '2014-08-20 15:27:46.033949'
+categories_244:
+  id: 244
+  parent_id: 235
+  abstract: f
+  en: Electricians
+  es: Electricistas
+  created_at: '2014-08-20 15:27:46.039474'
+  updated_at: '2014-08-20 15:27:46.039474'
+categories_245:
+  id: 245
+  parent_id: 235
+  abstract: f
+  en: Fences, Fireplaces and Garage Doors
+  es: Cercas, Chimeneas y Puertas de Garaje
+  created_at: '2014-08-20 15:27:46.042585'
+  updated_at: '2014-08-20 15:27:46.042585'
+categories_246:
+  id: 246
+  parent_id: 235
+  abstract: f
+  en: Hardware and Services
+  es: Ferretería y Servicios
+  created_at: '2014-08-20 15:27:46.045789'
+  updated_at: '2014-08-20 15:27:46.045789'
+categories_247:
+  id: 247
+  parent_id: 235
+  abstract: f
+  en: Heating, Ventilating and Air Conditioning
+  es: Calefacción, Ventilación y Aire Acondicionado
+  created_at: '2014-08-20 15:27:46.048991'
+  updated_at: '2014-08-20 15:27:46.048991'
+categories_248:
+  id: 248
+  parent_id: 123
+  abstract: f
+  en: Home Appliances
+  es: Electrodomésticos
+  created_at: '2014-08-20 15:27:46.052197'
+  updated_at: '2014-08-20 15:27:46.052197'
+categories_249:
+  id: 249
+  parent_id: 235
+  abstract: f
+  en: Home Inspection Services
+  es: Inspección de la Casa y Servicios
+  created_at: '2014-08-20 15:27:46.055721'
+  updated_at: '2014-08-20 15:27:46.055721'
+categories_250:
+  id: 250
+  parent_id: 123
+  abstract: f
+  en: Housewares
+  es: Artículos para el Hogar
+  created_at: '2014-08-20 15:27:46.058795'
+  updated_at: '2014-08-20 15:27:46.058795'
+categories_251:
+  id: 251
+  parent_id: 235
+  abstract: f
+  en: Interior Design
+  es: Decoración Interior
+  created_at: '2014-08-20 15:27:46.061871'
+  updated_at: '2014-08-20 15:27:46.061871'
+categories_252:
+  id: 252
+  parent_id: 235
+  abstract: f
+  en: Kitchens
+  es: Cocinas
+  created_at: '2014-08-20 15:27:46.064975'
+  updated_at: '2014-08-20 15:27:46.064975'
+categories_253:
+  id: 253
+  parent_id: 235
+  abstract: f
+  en: Landscaping and Gardeners
+  es: Paisajismo y Jardineros
+  created_at: '2014-08-20 15:27:46.068118'
+  updated_at: '2014-08-20 15:27:46.068118'
+categories_254:
+  id: 254
+  parent_id: 235
+  abstract: f
+  en: Lighting Fixtures
+  es: Instalaciones Fijas para Iluminación
+  created_at: '2014-08-20 15:27:46.072393'
+  updated_at: '2014-08-20 15:27:46.072393'
+categories_255:
+  id: 255
+  parent_id: 291
+  abstract: f
+  en: Mobile Homes
+  es: Casas Móviles
+  created_at: '2014-08-20 15:27:46.075566'
+  updated_at: '2014-08-20 15:27:46.075566'
+categories_256:
+  id: 256
+  parent_id: 235
+  abstract: f
+  en: Movers
+  es: Encargados de Mudanzas
+  created_at: '2014-08-20 15:27:46.078465'
+  updated_at: '2014-08-20 15:27:46.078465'
+categories_257:
+  id: 257
+  parent_id: 235
+  abstract: f
+  en: Painting
+  es: Pintura
+  created_at: '2014-08-20 15:27:46.081486'
+  updated_at: '2014-08-20 15:27:46.081486'
+categories_258:
+  id: 258
+  parent_id: 235
+  abstract: f
+  en: Pest Control
+  es: Control de plagas
+  created_at: '2014-08-20 15:27:46.084561'
+  updated_at: '2014-08-20 15:27:46.084561'
+categories_259:
+  id: 259
+  parent_id: 235
+  abstract: f
+  en: Plumbing
+  es: Fontanería
+  created_at: '2014-08-20 15:27:46.088492'
+  updated_at: '2014-08-20 15:27:46.088492'
+categories_260:
+  id: 260
+  parent_id: 235
+  abstract: f
+  en: Pools and Spas
+  es: Piscinas y Balnearios
+  created_at: '2014-08-20 15:27:46.091616'
+  updated_at: '2014-08-20 15:27:46.091616'
+categories_261:
+  id: 261
+  parent_id: 235
+  abstract: f
+  en: Roofers
+  es: Techadores
+  created_at: '2014-08-20 15:27:46.094604'
+  updated_at: '2014-08-20 15:27:46.094604'
+categories_262:
+  id: 262
+  parent_id: 177
+  abstract: f
+  en: Storage
+  es: Almacenamiento
+  created_at: '2014-08-20 15:27:46.097834'
+  updated_at: '2014-08-20 15:27:46.097834'
+categories_263:
+  id: 263
+  parent_id: 235
+  abstract: f
+  en: Swimming Pool Maintenance and Services
+  es: Mantenimiento de Piscina y Servicios
+  created_at: '2014-08-20 15:27:46.101015'
+  updated_at: '2014-08-20 15:27:46.101015'
+categories_264:
+  id: 264
+  parent_id: 235
+  abstract: f
+  en: Tree Service
+  es: Servicio de árbol
+  created_at: '2014-08-20 15:27:46.104538'
+  updated_at: '2014-08-20 15:27:46.104538'
+categories_265:
+  id: 265
+  parent_id: 235
+  abstract: f
+  en: Upholstery
+  es: Tapicería
+  created_at: '2014-08-20 15:27:46.108240'
+  updated_at: '2014-08-20 15:27:46.108240'
+categories_266:
+  id: 266
+  parent_id: 177
+  abstract: f
+  en: Human Resources
+  es: Recursos Humanos
+  created_at: '2014-08-20 15:27:46.111455'
+  updated_at: '2014-08-20 15:27:46.111455'
+categories_267:
+  id: 267
+  parent_id: 177
+  abstract: f
+  en: Import and Export
+  es: Importación y Exportación
+  created_at: '2014-08-20 15:27:46.114593'
+  updated_at: '2014-08-20 15:27:46.114593'
+categories_268:
+  id: 268
+  parent_id: 177
+  abstract: f
+  en: Leather
+  es: Cuero
+  created_at: '2014-08-20 15:27:46.117661'
+  updated_at: '2014-08-20 15:27:46.117661'
+categories_269:
+  id: 269
+  parent_id: 177
+  abstract: f
+  en: Legal
+  es: Legal
+  created_at: '2014-08-20 15:27:46.121262'
+  updated_at: '2014-08-20 15:27:46.121262'
+categories_270:
+  id: 270
+  parent_id: 269
+  abstract: f
+  en: Credit Counseling and Bankruptcy Services
+  es: Consejería de Crédito y Servicios de Bancarrota
+  created_at: '2014-08-20 15:27:46.124784'
+  updated_at: '2014-08-20 15:27:46.124784'
+categories_271:
+  id: 271
+  parent_id: 269
+  abstract: f
+  en: Immigration
+  es: Inmigración
+  created_at: '2014-08-20 15:27:46.127819'
+  updated_at: '2014-08-20 15:27:46.127819'
+categories_272:
+  id: 272
+  parent_id: 177
+  abstract: f
+  en: Insurance
+  es: Seguros
+  created_at: '2014-08-20 15:27:46.130957'
+  updated_at: '2014-08-20 15:27:46.130957'
+categories_273:
+  id: 273
+  parent_id: 177
+  abstract: f
+  en: Machine Shops
+  es: Talleres Mecánicos
+  created_at: '2014-08-20 15:27:46.134071'
+  updated_at: '2014-08-20 15:27:46.134071'
+categories_274:
+  id: 274
+  parent_id: 177
+  abstract: f
+  en: Management
+  es: Administración
+  created_at: '2014-08-20 15:27:46.138656'
+  updated_at: '2014-08-20 15:27:46.138656'
+categories_275:
+  id: 275
+  parent_id: 177
+  abstract: f
+  en: Manufacturing
+  es: Fabricación
+  created_at: '2014-08-20 15:27:46.141915'
+  updated_at: '2014-08-20 15:27:46.141915'
+categories_276:
+  id: 276
+  parent_id: 177
+  abstract: f
+  en: Paper
+  es: Papel
+  created_at: '2014-08-20 15:27:46.144740'
+  updated_at: '2014-08-20 15:27:46.144740'
+categories_277:
+  id: 277
+  parent_id: 177
+  abstract: f
+  en: Personal Care
+  es: Cuidado Personal
+  created_at: '2014-08-20 15:27:46.147799'
+  updated_at: '2014-08-20 15:27:46.147799'
+categories_278:
+  id: 278
+  parent_id: 277
+  abstract: f
+  en: Dry Cleaning, Ironing and Laundry
+  es: Limpieza en Seco, Planchado y Lavandería
+  created_at: '2014-08-20 15:27:46.150861'
+  updated_at: '2014-08-20 15:27:46.150861'
+categories_279:
+  id: 279
+  parent_id: 277
+  abstract: f
+  en: Hair Removal
+  es: Depilación
+  created_at: '2014-08-20 15:27:46.154825'
+  updated_at: '2014-08-20 15:27:46.154825'
+categories_280:
+  id: 280
+  parent_id: 277
+  abstract: f
+  en: Beauty Salons and Barbers
+  es: Salones de Belleza y Peluqueros
+  created_at: '2014-08-20 15:27:46.158078'
+  updated_at: '2014-08-20 15:27:46.158078'
+categories_281:
+  id: 281
+  parent_id: 277
+  abstract: f
+  en: Manicures and Pedicures
+  es: Manicura y Pedicura
+  created_at: '2014-08-20 15:27:46.161329'
+  updated_at: '2014-08-20 15:27:46.161329'
+categories_282:
+  id: 282
+  parent_id: 277
+  abstract: f
+  en: Massage Clinics and Therapists
+  es: Clínicas de Masaje y Terapeutas
+  created_at: '2014-08-20 15:27:46.164660'
+  updated_at: '2014-08-20 15:27:46.164660'
+categories_283:
+  id: 283
+  parent_id: 277
+  abstract: f
+  en: Piercing
+  es: Penetrantes
+  created_at: '2014-08-20 15:27:46.167562'
+  updated_at: '2014-08-20 15:27:46.167562'
+categories_284:
+  id: 284
+  parent_id: 277
+  abstract: f
+  en: Skin Care
+  es: Cuidado de la Piel
+  created_at: '2014-08-20 15:27:46.171377'
+  updated_at: '2014-08-20 15:27:46.171377'
+categories_285:
+  id: 285
+  parent_id: 277
+  abstract: f
+  en: Spas
+  es: Balnearios
+  created_at: '2014-08-20 15:27:46.174593'
+  updated_at: '2014-08-20 15:27:46.174593'
+categories_286:
+  id: 286
+  parent_id: 277
+  abstract: f
+  en: Tanning Salons
+  es: Salones de Bronceado
+  created_at: '2014-08-20 15:27:46.177676'
+  updated_at: '2014-08-20 15:27:46.177676'
+categories_287:
+  id: 287
+  parent_id: 277
+  abstract: f
+  en: Tattooing
+  es: Tatuando
+  created_at: '2014-08-20 15:27:46.180982'
+  updated_at: '2014-08-20 15:27:46.180982'
+categories_288:
+  id: 288
+  parent_id: 177
+  abstract: f
+  en: Printing, Copying and Signage
+  es: Impresión, Copia y Señalización
+  created_at: '2014-08-20 15:27:46.184038'
+  updated_at: '2014-08-20 15:27:46.184038'
+categories_289:
+  id: 289
+  parent_id: 177
+  abstract: f
+  en: Professional Cleaning
+  es: Limpieza Profesional
+  created_at: '2014-08-20 15:27:46.187844'
+  updated_at: '2014-08-20 15:27:46.187844'
+categories_290:
+  id: 290
+  parent_id: 177
+  abstract: f
+  en: Publishing
+  es: Editorial
+  created_at: '2014-08-20 15:27:46.191203'
+  updated_at: '2014-08-20 15:27:46.191203'
+categories_291:
+  id: 291
+  parent_id: 177
+  abstract: f
+  en: Real Estate
+  es: Inmobiliaria
+  created_at: '2014-08-20 15:27:46.194305'
+  updated_at: '2014-08-20 15:27:46.194305'
+categories_292:
+  id: 292
+  parent_id: 291
+  abstract: f
+  en: Property Management
+  es: Gestión de la Propiedad
+  created_at: '2014-08-20 15:27:46.197495'
+  updated_at: '2014-08-20 15:27:46.197495'
+categories_293:
+  id: 293
+  parent_id: 291
+  abstract: f
+  en: Real Estate Agents
+  es: Agentes Inmobiliarios
+  created_at: '2014-08-20 15:27:46.200694'
+  updated_at: '2014-08-20 15:27:46.200694'
+categories_294:
+  id: 294
+  parent_id: 291
+  abstract: f
+  en: Real Estate Appraiser
+  es: Tasador Inmobiliario
+  created_at: '2014-08-20 15:27:46.205096'
+  updated_at: '2014-08-20 15:27:46.205096'
+categories_295:
+  id: 295
+  parent_id: 291
+  abstract: f
+  en: Real Estate Development and Title Companies
+  es: Desarrollo Inmobiliario y Compañías de Título
+  created_at: '2014-08-20 15:27:46.208826'
+  updated_at: '2014-08-20 15:27:46.208826'
+categories_296:
+  id: 296
+  parent_id: 291
+  abstract: f
+  en: Apartments, Condos, and Houses
+  es: Apartamentos, Condominios y Casas
+  created_at: '2014-08-20 15:27:46.211961'
+  updated_at: '2014-08-20 15:27:46.211961'
+categories_297:
+  id: 297
+  parent_id: 291
+  abstract: f
+  en: Boarding Houses
+  es: Hostales
+  created_at: '2014-08-20 15:27:46.215156'
+  updated_at: '2014-08-20 15:27:46.215156'
+categories_298:
+  id: 298
+  parent_id: 291
+  abstract: f
+  en: Building and Land Surveyors
+  es: Tasadores de Edificios y Tierra
+  created_at: '2014-08-20 15:27:46.218262'
+  updated_at: '2014-08-20 15:27:46.218262'
+categories_299:
+  id: 299
+  parent_id: 291
+  abstract: f
+  en: Commercial Real Estate
+  es: Inmobiliaria Comercial
+  created_at: '2014-08-20 15:27:46.222328'
+  updated_at: '2014-08-20 15:27:46.222328'
+categories_300:
+  id: 300
+  parent_id: 291
+  abstract: f
+  en: Corporate Housing
+  es: Vivienda Corporativa
+  created_at: '2014-08-20 15:27:46.225676'
+  updated_at: '2014-08-20 15:27:46.225676'
+categories_301:
+  id: 301
+  parent_id: 177
+  abstract: f
+  en: Renewable Energy
+  es: Energía Renovable
+  created_at: '2014-08-20 15:27:46.228717'
+  updated_at: '2014-08-20 15:27:46.228717'
+categories_302:
+  id: 302
+  parent_id: 177
+  abstract: f
+  en: Repair Services
+  es: Servicios de Reparación
+  created_at: '2014-08-20 15:27:46.231822'
+  updated_at: '2014-08-20 15:27:46.231822'
+categories_303:
+  id: 303
+  parent_id: 177
+  abstract: f
+  en: Shipping, Freight, and Material Transportation
+  es: Envío, Carga y Transporte de Material
+  created_at: '2014-08-20 15:27:46.235064'
+  updated_at: '2014-08-20 15:27:46.235064'
+categories_304:
+  id: 304
+  parent_id: 177
+  abstract: f
+  en: Tailors
+  es: Sastres
+  created_at: '2014-08-20 15:27:46.239123'
+  updated_at: '2014-08-20 15:27:46.239123'
+categories_305:
+  id: 305
+  parent_id: 177
+  abstract: f
+  en: Veterinarians
+  es: Veterinarios
+  created_at: '2014-08-20 15:27:46.242511'
+  updated_at: '2014-08-20 15:27:46.242511'
+categories_306:
+  id: 306
+  parent_id: 177
+  abstract: f
+  en: Web Design and Development
+  es: Diseño y Desarrollo del Web
+  created_at: '2014-08-20 15:27:46.245993'
+  updated_at: '2014-08-20 15:27:46.245993'
+categories_307:
+  id: 307
+  parent_id: 177
+  abstract: f
+  en: Wholesale
+  es: Compraventa al por Mayor
+  created_at: '2014-08-20 15:27:46.250209'
+  updated_at: '2014-08-20 15:27:46.250209'
+categories_308:
+  id: 308
+  parent_id: 1
+  abstract: f
+  en: Social
+  es: Social
+  created_at: '2014-08-20 15:27:46.255319'
+  updated_at: '2014-08-20 15:27:46.255319'
+categories_309:
+  id: 309
+  parent_id: 308
+  abstract: f
+  en: Arts
+  es: Artes
+  created_at: '2014-08-20 15:27:46.258479'
+  updated_at: '2014-08-20 15:27:46.258479'
+categories_310:
+  id: 310
+  parent_id: 309
+  abstract: f
+  en: Art Dealers and Galleries
+  es: Marchantes de Arte y Galerías
+  created_at: '2014-08-20 15:27:46.261438'
+  updated_at: '2014-08-20 15:27:46.261438'
+categories_311:
+  id: 311
+  parent_id: 309
+  abstract: f
+  en: Museums
+  es: Museos
+  created_at: '2014-08-20 15:27:46.264863'
+  updated_at: '2014-08-20 15:27:46.264863'
+categories_312:
+  id: 312
+  parent_id: 308
+  abstract: f
+  en: Bars
+  es: Bares
+  created_at: '2014-08-20 15:27:46.268193'
+  updated_at: '2014-08-20 15:27:46.268193'
+categories_313:
+  id: 313
+  parent_id: 312
+  abstract: f
+  en: Hotel Lounges
+  es: Salones de Hotel
+  created_at: '2014-08-20 15:27:46.272512'
+  updated_at: '2014-08-20 15:27:46.272512'
+categories_314:
+  id: 314
+  parent_id: 312
+  abstract: f
+  en: Jazz and Blues Cafes
+  es: Cafés de la Música Jazz y Blues
+  created_at: '2014-08-20 15:27:46.275748'
+  updated_at: '2014-08-20 15:27:46.275748'
+categories_315:
+  id: 315
+  parent_id: 312
+  abstract: f
+  en: Sports Bars
+  es: Bares Deportivos
+  created_at: '2014-08-20 15:27:46.278756'
+  updated_at: '2014-08-20 15:27:46.278756'
+categories_316:
+  id: 316
+  parent_id: 312
+  abstract: f
+  en: Wine Bars
+  es: Bares de Vino
+  created_at: '2014-08-20 15:27:46.281955'
+  updated_at: '2014-08-20 15:27:46.281955'
+categories_317:
+  id: 317
+  parent_id: 308
+  abstract: f
+  en: Entertainment
+  es: Entretenimiento
+  created_at: '2014-08-20 15:27:46.285028'
+  updated_at: '2014-08-20 15:27:46.285028'
+categories_318:
+  id: 318
+  parent_id: 317
+  abstract: f
+  en: Adult
+  es: Adultos
+  created_at: '2014-08-20 15:27:46.289403'
+  updated_at: '2014-08-20 15:27:46.289403'
+categories_319:
+  id: 319
+  parent_id: 317
+  abstract: f
+  en: Arcades and Amusement Parks
+  es: Arcadas y Parques de Atracciones
+  created_at: '2014-08-20 15:27:46.293034'
+  updated_at: '2014-08-20 15:27:46.293034'
+categories_320:
+  id: 320
+  parent_id: 317
+  abstract: f
+  en: Billiard and Pool
+  es: Billar y Billar Americano
+  created_at: '2014-08-20 15:27:46.296198'
+  updated_at: '2014-08-20 15:27:46.296198'
+categories_321:
+  id: 321
+  parent_id: 317
+  abstract: f
+  en: Bingo
+  es: Bingo
+  created_at: '2014-08-20 15:27:46.299527'
+  updated_at: '2014-08-20 15:27:46.299527'
+categories_322:
+  id: 322
+  parent_id: 317
+  abstract: f
+  en: Bowling
+  es: Bolina
+  created_at: '2014-08-20 15:27:46.302484'
+  updated_at: '2014-08-20 15:27:46.302484'
+categories_323:
+  id: 323
+  parent_id: 317
+  abstract: f
+  en: Carnivals
+  es: Carnavales
+  created_at: '2014-08-20 15:27:46.306423'
+  updated_at: '2014-08-20 15:27:46.306423'
+categories_324:
+  id: 324
+  parent_id: 317
+  abstract: f
+  en: Casinos and Gaming
+  es: Casinos y Juegos
+  created_at: '2014-08-20 15:27:46.309680'
+  updated_at: '2014-08-20 15:27:46.309680'
+categories_325:
+  id: 325
+  parent_id: 317
+  abstract: f
+  en: Circuses
+  es: Circos
+  created_at: '2014-08-20 15:27:46.312778'
+  updated_at: '2014-08-20 15:27:46.312778'
+categories_326:
+  id: 326
+  parent_id: 317
+  abstract: f
+  en: Dance Halls and Saloons
+  es: Salas de Baile y Salones
+  created_at: '2014-08-20 15:27:46.316083'
+  updated_at: '2014-08-20 15:27:46.316083'
+categories_327:
+  id: 327
+  parent_id: 317
+  abstract: f
+  en: Fairgrounds and Rodeos
+  es: Recinto Ferial y Rodeos
+  created_at: '2014-08-20 15:27:46.319497'
+  updated_at: '2014-08-20 15:27:46.319497'
+categories_328:
+  id: 328
+  parent_id: 317
+  abstract: f
+  en: Go Carts
+  es: Carretillas
+  created_at: '2014-08-20 15:27:46.323332'
+  updated_at: '2014-08-20 15:27:46.323332'
+categories_329:
+  id: 329
+  parent_id: 317
+  abstract: f
+  en: Hookah Lounges
+  es: Salones de Narguile
+  created_at: '2014-08-20 15:27:46.326579'
+  updated_at: '2014-08-20 15:27:46.326579'
+categories_330:
+  id: 330
+  parent_id: 317
+  abstract: f
+  en: Karaoke
+  es: Karaoke
+  created_at: '2014-08-20 15:27:46.329701'
+  updated_at: '2014-08-20 15:27:46.329701'
+categories_331:
+  id: 331
+  parent_id: 317
+  abstract: f
+  en: Miniature Golf
+  es: Golfito
+  created_at: '2014-08-20 15:27:46.333057'
+  updated_at: '2014-08-20 15:27:46.333057'
+categories_332:
+  id: 332
+  parent_id: 317
+  abstract: f
+  en: Movie Theatres
+  es: Cines
+  created_at: '2014-08-20 15:27:46.336114'
+  updated_at: '2014-08-20 15:27:46.336114'
+categories_333:
+  id: 333
+  parent_id: 317
+  abstract: f
+  en: Music and Show Venues
+  es: Salas de Música y Espectáculo
+  created_at: '2014-08-20 15:27:46.340504'
+  updated_at: '2014-08-20 15:27:46.340504'
+categories_334:
+  id: 334
+  parent_id: 317
+  abstract: f
+  en: Night Clubs
+  es: Clubes Nocturnos
+  created_at: '2014-08-20 15:27:46.343962'
+  updated_at: '2014-08-20 15:27:46.343962'
+categories_335:
+  id: 335
+  parent_id: 317
+  abstract: f
+  en: Party Centers
+  es: Centros de Partido
+  created_at: '2014-08-20 15:27:46.347168'
+  updated_at: '2014-08-20 15:27:46.347168'
+categories_336:
+  id: 336
+  parent_id: 317
+  abstract: f
+  en: Psychics and Astrologers
+  es: Adivinos y Astrólogos
+  created_at: '2014-08-20 15:27:46.350292'
+  updated_at: '2014-08-20 15:27:46.350292'
+categories_337:
+  id: 337
+  parent_id: 317
+  abstract: f
+  en: Ticket Sales
+  es: Ventas de Entradas
+  created_at: '2014-08-20 15:27:46.353906'
+  updated_at: '2014-08-20 15:27:46.353906'
+categories_338:
+  id: 338
+  parent_id: 308
+  abstract: f
+  en: Food and Dining
+  es: Alimento y Cenar
+  created_at: '2014-08-20 15:27:46.357768'
+  updated_at: '2014-08-20 15:27:46.357768'
+categories_339:
+  id: 339
+  parent_id: 338
+  abstract: f
+  en: Bagels and Donuts
+  es: Roscas y Rosquillas Cubiertas
+  created_at: '2014-08-20 15:27:46.360949'
+  updated_at: '2014-08-20 15:27:46.360949'
+categories_340:
+  id: 340
+  parent_id: 338
+  abstract: f
+  en: Bakeries
+  es: Panaderías
+  created_at: '2014-08-20 15:27:46.364162'
+  updated_at: '2014-08-20 15:27:46.364162'
+categories_341:
+  id: 341
+  parent_id: 338
+  abstract: f
+  en: Breweries
+  es: Cervecerías
+  created_at: '2014-08-20 15:27:46.367332'
+  updated_at: '2014-08-20 15:27:46.367332'
+categories_342:
+  id: 342
+  parent_id: 338
+  abstract: f
+  en: Cafes, Coffee and Tea Houses
+  es: Cafés, Café y Casas de Té
+  created_at: '2014-08-20 15:27:46.370968'
+  updated_at: '2014-08-20 15:27:46.370968'
+categories_343:
+  id: 343
+  parent_id: 338
+  abstract: f
+  en: Dessert
+  es: Postre
+  created_at: '2014-08-20 15:27:46.374875'
+  updated_at: '2014-08-20 15:27:46.374875'
+categories_344:
+  id: 344
+  parent_id: 338
+  abstract: f
+  en: Ice Cream Parlors
+  es: Locutorios de Helado
+  created_at: '2014-08-20 15:27:46.378162'
+  updated_at: '2014-08-20 15:27:46.378162'
+categories_345:
+  id: 345
+  parent_id: 338
+  abstract: f
+  en: Internet Cafes
+  es: Cibercafés
+  created_at: '2014-08-20 15:27:46.381395'
+  updated_at: '2014-08-20 15:27:46.381395'
+categories_346:
+  id: 346
+  parent_id: 338
+  abstract: f
+  en: Juice Bars and Smoothies
+  es: Bares de Jugos y Licuados
+  created_at: '2014-08-20 15:27:46.384601'
+  updated_at: '2014-08-20 15:27:46.384601'
+categories_347:
+  id: 347
+  parent_id: 338
+  abstract: f
+  en: Restaurants
+  es: Restaurantes
+  created_at: '2014-08-20 15:27:46.388454'
+  updated_at: '2014-08-20 15:27:46.388454'
+categories_348:
+  id: 348
+  parent_id: 347
+  abstract: f
+  en: American
+  es: Americana
+  created_at: '2014-08-20 15:27:46.391953'
+  updated_at: '2014-08-20 15:27:46.391953'
+categories_349:
+  id: 349
+  parent_id: 347
+  abstract: f
+  en: Barbecue
+  es: Barbacoa
+  created_at: '2014-08-20 15:27:46.395409'
+  updated_at: '2014-08-20 15:27:46.395409'
+categories_350:
+  id: 350
+  parent_id: 347
+  abstract: f
+  en: Buffets
+  es: Bufés
+  created_at: '2014-08-20 15:27:46.398584'
+  updated_at: '2014-08-20 15:27:46.398584'
+categories_351:
+  id: 351
+  parent_id: 347
+  abstract: f
+  en: Burgers
+  es: Hamburguesas
+  created_at: '2014-08-20 15:27:46.401514'
+  updated_at: '2014-08-20 15:27:46.401514'
+categories_352:
+  id: 352
+  parent_id: 347
+  abstract: f
+  en: Chinese
+  es: Chino
+  created_at: '2014-08-20 15:27:46.405678'
+  updated_at: '2014-08-20 15:27:46.405678'
+categories_353:
+  id: 353
+  parent_id: 347
+  abstract: f
+  en: Delis
+  es: Tiendas de Productos Gourmet
+  created_at: '2014-08-20 15:27:46.409258'
+  updated_at: '2014-08-20 15:27:46.409258'
+categories_354:
+  id: 354
+  parent_id: 347
+  abstract: f
+  en: Diners
+  es: Cafeterías
+  created_at: '2014-08-20 15:27:46.412287'
+  updated_at: '2014-08-20 15:27:46.412287'
+categories_355:
+  id: 355
+  parent_id: 347
+  abstract: f
+  en: Fast Food
+  es: Comida Rápida
+  created_at: '2014-08-20 15:27:46.415625'
+  updated_at: '2014-08-20 15:27:46.415625'
+categories_356:
+  id: 356
+  parent_id: 347
+  abstract: f
+  en: French
+  es: Francés
+  created_at: '2014-08-20 15:27:46.418824'
+  updated_at: '2014-08-20 15:27:46.418824'
+categories_357:
+  id: 357
+  parent_id: 347
+  abstract: f
+  en: Indian
+  es: Indio
+  created_at: '2014-08-20 15:27:46.422540'
+  updated_at: '2014-08-20 15:27:46.422540'
+categories_358:
+  id: 358
+  parent_id: 347
+  abstract: f
+  en: Italian
+  es: Italiano
+  created_at: '2014-08-20 15:27:46.425813'
+  updated_at: '2014-08-20 15:27:46.425813'
+categories_359:
+  id: 359
+  parent_id: 347
+  abstract: f
+  en: Japanese
+  es: Japonés
+  created_at: '2014-08-20 15:27:46.428822'
+  updated_at: '2014-08-20 15:27:46.428822'
+categories_360:
+  id: 360
+  parent_id: 347
+  abstract: f
+  en: Korean
+  es: Coreano
+  created_at: '2014-08-20 15:27:46.432224'
+  updated_at: '2014-08-20 15:27:46.432224'
+categories_361:
+  id: 361
+  parent_id: 347
+  abstract: f
+  en: Mexican
+  es: Mexicana
+  created_at: '2014-08-20 15:27:46.435146'
+  updated_at: '2014-08-20 15:27:46.435146'
+categories_362:
+  id: 362
+  parent_id: 347
+  abstract: f
+  en: Middle Eastern
+  es: Oriente
+  created_at: '2014-08-20 15:27:46.439333'
+  updated_at: '2014-08-20 15:27:46.439333'
+categories_363:
+  id: 363
+  parent_id: 347
+  abstract: f
+  en: Pizza
+  es: Pizza
+  created_at: '2014-08-20 15:27:46.442865'
+  updated_at: '2014-08-20 15:27:46.442865'
+categories_364:
+  id: 364
+  parent_id: 347
+  abstract: f
+  en: Seafood
+  es: Mariscos
+  created_at: '2014-08-20 15:27:46.445947'
+  updated_at: '2014-08-20 15:27:46.445947'
+categories_365:
+  id: 365
+  parent_id: 347
+  abstract: f
+  en: Steakhouses
+  es: Asadores
+  created_at: '2014-08-20 15:27:46.449194'
+  updated_at: '2014-08-20 15:27:46.449194'
+categories_366:
+  id: 366
+  parent_id: 347
+  abstract: f
+  en: Sushi
+  es: Sushi
+  created_at: '2014-08-20 15:27:46.452104'
+  updated_at: '2014-08-20 15:27:46.452104'
+categories_367:
+  id: 367
+  parent_id: 347
+  abstract: f
+  en: Thai
+  es: Tailandés
+  created_at: '2014-08-20 15:27:46.456104'
+  updated_at: '2014-08-20 15:27:46.456104'
+categories_368:
+  id: 368
+  parent_id: 347
+  abstract: f
+  en: Vegan and Vegetarian
+  es: Vegana y Vegetariana
+  created_at: '2014-08-20 15:27:46.459656'
+  updated_at: '2014-08-20 15:27:46.459656'
+categories_369:
+  id: 369
+  parent_id: 308
+  abstract: f
+  en: Social Clubs
+  es: Clubes Sociales
+  created_at: '2014-08-20 15:27:46.462714'
+  updated_at: '2014-08-20 15:27:46.462714'
+categories_370:
+  id: 370
+  parent_id: 308
+  abstract: f
+  en: Wineries and Vineyards
+  es: Bodegas y Viñedos
+  created_at: '2014-08-20 15:27:46.465962'
+  updated_at: '2014-08-20 15:27:46.465962'
+categories_371:
+  id: 371
+  parent_id: 308
+  abstract: f
+  en: Zoos, Aquariums and Wildlife Sanctuaries
+  es: Zoológicos, Acuarios y Santuarios de vida Silvestre
+  created_at: '2014-08-20 15:27:46.469047'
+  updated_at: '2014-08-20 15:27:46.469047'
+categories_372:
+  id: 372
+  parent_id: 1
+  abstract: f
+  en: Sports and Recreation
+  es: Deportes y Recreación
+  created_at: '2014-08-20 15:27:46.472781'
+  updated_at: '2014-08-20 15:27:46.472781'
+categories_373:
+  id: 373
+  parent_id: 372
+  abstract: f
+  en: Athletic Fields
+  es: Campos Atléticos
+  created_at: '2014-08-20 15:27:46.476208'
+  updated_at: '2014-08-20 15:27:46.476208'
+categories_374:
+  id: 374
+  parent_id: 372
+  abstract: f
+  en: Baseball
+  es: Béisbol
+  created_at: '2014-08-20 15:27:46.479404'
+  updated_at: '2014-08-20 15:27:46.479404'
+categories_375:
+  id: 375
+  parent_id: 374
+  abstract: f
+  en: Batting Ranges
+  es: Rangos de bateo
+  created_at: '2014-08-20 15:27:46.482579'
+  updated_at: '2014-08-20 15:27:46.482579'
+categories_376:
+  id: 376
+  parent_id: 372
+  abstract: f
+  en: Basketball
+  es: Baloncesto
+  created_at: '2014-08-20 15:27:46.485601'
+  updated_at: '2014-08-20 15:27:46.485601'
+categories_377:
+  id: 377
+  parent_id: 372
+  abstract: f
+  en: Combat Sports
+  es: Deportes de Combate
+  created_at: '2014-08-20 15:27:46.489396'
+  updated_at: '2014-08-20 15:27:46.489396'
+categories_378:
+  id: 378
+  parent_id: 372
+  abstract: f
+  en: Cycling
+  es: Ciclismo
+  created_at: '2014-08-20 15:27:46.492782'
+  updated_at: '2014-08-20 15:27:46.492782'
+categories_379:
+  id: 379
+  parent_id: 372
+  abstract: f
+  en: Dance
+  es: Baile
+  created_at: '2014-08-20 15:27:46.495803'
+  updated_at: '2014-08-20 15:27:46.495803'
+categories_380:
+  id: 380
+  parent_id: 372
+  abstract: f
+  en: Equestrian
+  es: Ecuestre
+  created_at: '2014-08-20 15:27:46.498917'
+  updated_at: '2014-08-20 15:27:46.498917'
+categories_381:
+  id: 381
+  parent_id: 372
+  abstract: f
+  en: Football
+  es: Fútbol Americano
+  created_at: '2014-08-20 15:27:46.502084'
+  updated_at: '2014-08-20 15:27:46.502084'
+categories_382:
+  id: 382
+  parent_id: 372
+  abstract: f
+  en: Golf
+  es: Golf
+  created_at: '2014-08-20 15:27:46.506359'
+  updated_at: '2014-08-20 15:27:46.506359'
+categories_383:
+  id: 383
+  parent_id: 372
+  abstract: f
+  en: Gun Ranges
+  es: Rangos de Pistola
+  created_at: '2014-08-20 15:27:46.509764'
+  updated_at: '2014-08-20 15:27:46.509764'
+categories_384:
+  id: 384
+  parent_id: 372
+  abstract: f
+  en: Gymnastics
+  es: Gimnasia
+  created_at: '2014-08-20 15:27:46.512656'
+  updated_at: '2014-08-20 15:27:46.512656'
+categories_385:
+  id: 385
+  parent_id: 372
+  abstract: f
+  en: Gyms and Fitness Centers
+  es: Gimnasios y Centros de Buena Forma
+  created_at: '2014-08-20 15:27:46.515895'
+  updated_at: '2014-08-20 15:27:46.515895'
+categories_386:
+  id: 386
+  parent_id: 372
+  abstract: f
+  en: Hockey
+  es: Hockey
+  created_at: '2014-08-20 15:27:46.519151'
+  updated_at: '2014-08-20 15:27:46.519151'
+categories_387:
+  id: 387
+  parent_id: 372
+  abstract: f
+  en: Outdoors
+  es: Afuera
+  created_at: '2014-08-20 15:27:46.523055'
+  updated_at: '2014-08-20 15:27:46.523055'
+categories_388:
+  id: 388
+  parent_id: 387
+  abstract: f
+  en: Campgrounds and RV Parks
+  es: Lugares de Campamento y Parques de Vehículos de Recreación
+  created_at: '2014-08-20 15:27:46.526469'
+  updated_at: '2014-08-20 15:27:46.526469'
+categories_389:
+  id: 389
+  parent_id: 387
+  abstract: f
+  en: Hiking
+  es: Senderismo
+  created_at: '2014-08-20 15:27:46.529548'
+  updated_at: '2014-08-20 15:27:46.529548'
+categories_390:
+  id: 390
+  parent_id: 387
+  abstract: f
+  en: Hot Air Balloons
+  es: Globos de Aire Caliente
+  created_at: '2014-08-20 15:27:46.532705'
+  updated_at: '2014-08-20 15:27:46.532705'
+categories_391:
+  id: 391
+  parent_id: 387
+  abstract: f
+  en: Hunting and Fishing
+  es: Caza y Pesca
+  created_at: '2014-08-20 15:27:46.535925'
+  updated_at: '2014-08-20 15:27:46.535925'
+categories_392:
+  id: 392
+  parent_id: 387
+  abstract: f
+  en: Rock Climbing
+  es: Escalada en Roca
+  created_at: '2014-08-20 15:27:46.539828'
+  updated_at: '2014-08-20 15:27:46.539828'
+categories_393:
+  id: 393
+  parent_id: 387
+  abstract: f
+  en: Skydiving
+  es: Paracaidismo
+  created_at: '2014-08-20 15:27:46.543272'
+  updated_at: '2014-08-20 15:27:46.543272'
+categories_394:
+  id: 394
+  parent_id: 372
+  abstract: f
+  en: Paintball
+  es: Juego de Guerra con Pintura
+  created_at: '2014-08-20 15:27:46.546432'
+  updated_at: '2014-08-20 15:27:46.546432'
+categories_395:
+  id: 395
+  parent_id: 372
+  abstract: f
+  en: Personal Trainers
+  es: Entrenadores Personales
+  created_at: '2014-08-20 15:27:46.549668'
+  updated_at: '2014-08-20 15:27:46.549668'
+categories_396:
+  id: 396
+  parent_id: 372
+  abstract: f
+  en: Race Tracks
+  es: Hipódromos
+  created_at: '2014-08-20 15:27:46.552682'
+  updated_at: '2014-08-20 15:27:46.552682'
+categories_397:
+  id: 397
+  parent_id: 372
+  abstract: f
+  en: Racquet Sports
+  es: Deportes de Raqueta
+  created_at: '2014-08-20 15:27:46.556506'
+  updated_at: '2014-08-20 15:27:46.556506'
+categories_398:
+  id: 398
+  parent_id: 397
+  abstract: f
+  en: Racquetball
+  es: Raquetbol
+  created_at: '2014-08-20 15:27:46.560001'
+  updated_at: '2014-08-20 15:27:46.560001'
+categories_399:
+  id: 399
+  parent_id: 397
+  abstract: f
+  en: Tennis
+  es: Tenis
+  created_at: '2014-08-20 15:27:46.563293'
+  updated_at: '2014-08-20 15:27:46.563293'
+categories_400:
+  id: 400
+  parent_id: 372
+  abstract: f
+  en: Recreation Centers
+  es: Centros Recreativos
+  created_at: '2014-08-20 15:27:46.566464'
+  updated_at: '2014-08-20 15:27:46.566464'
+categories_401:
+  id: 401
+  parent_id: 372
+  abstract: f
+  en: Running
+  es: Corriendo
+  created_at: '2014-08-20 15:27:46.569276'
+  updated_at: '2014-08-20 15:27:46.569276'
+categories_402:
+  id: 402
+  parent_id: 372
+  abstract: f
+  en: Skating
+  es: Patinaje
+  created_at: '2014-08-20 15:27:46.573091'
+  updated_at: '2014-08-20 15:27:46.573091'
+categories_403:
+  id: 403
+  parent_id: 372
+  abstract: f
+  en: Snow Sports
+  es: Deportes de Nieve
+  created_at: '2014-08-20 15:27:46.576349'
+  updated_at: '2014-08-20 15:27:46.576349'
+categories_404:
+  id: 404
+  parent_id: 372
+  abstract: f
+  en: Soccer
+  es: Fútbol
+  created_at: '2014-08-20 15:27:46.579546'
+  updated_at: '2014-08-20 15:27:46.579546'
+categories_405:
+  id: 405
+  parent_id: 372
+  abstract: f
+  en: Sports Clubs
+  es: Clubes Deportivos
+  created_at: '2014-08-20 15:27:46.582730'
+  updated_at: '2014-08-20 15:27:46.582730'
+categories_406:
+  id: 406
+  parent_id: 372
+  abstract: f
+  en: Stadiums and Arenas
+  es: Estadios y Arenas
+  created_at: '2014-08-20 15:27:46.585876'
+  updated_at: '2014-08-20 15:27:46.585876'
+categories_407:
+  id: 407
+  parent_id: 372
+  abstract: f
+  en: Swimming Pools
+  es: Piscinas
+  created_at: '2014-08-20 15:27:46.589877'
+  updated_at: '2014-08-20 15:27:46.589877'
+categories_408:
+  id: 408
+  parent_id: 372
+  abstract: f
+  en: Water Sports
+  es: Deportes Acuáticos
+  created_at: '2014-08-20 15:27:46.593561'
+  updated_at: '2014-08-20 15:27:46.593561'
+categories_409:
+  id: 409
+  parent_id: 408
+  abstract: f
+  en: Boating
+  es: Paseando en Barca
+  created_at: '2014-08-20 15:27:46.596655'
+  updated_at: '2014-08-20 15:27:46.596655'
+categories_410:
+  id: 410
+  parent_id: 408
+  abstract: f
+  en: Canoes and Kayaks
+  es: Canoas y Kayacs
+  created_at: '2014-08-20 15:27:46.599986'
+  updated_at: '2014-08-20 15:27:46.599986'
+categories_411:
+  id: 411
+  parent_id: 408
+  abstract: f
+  en: Rafting
+  es: Paseando en Balsa
+  created_at: '2014-08-20 15:27:46.603095'
+  updated_at: '2014-08-20 15:27:46.603095'
+categories_412:
+  id: 412
+  parent_id: 408
+  abstract: f
+  en: Scuba Diving
+  es: Buceo
+  created_at: '2014-08-20 15:27:46.607469'
+  updated_at: '2014-08-20 15:27:46.607469'
+categories_413:
+  id: 413
+  parent_id: 408
+  abstract: f
+  en: Swimming
+  es: Natación
+  created_at: '2014-08-20 15:27:46.611260'
+  updated_at: '2014-08-20 15:27:46.611260'
+categories_414:
+  id: 414
+  parent_id: 372
+  abstract: f
+  en: Yoga and Pilates
+  es: Yoga y Pilates
+  created_at: '2014-08-20 15:27:46.614576'
+  updated_at: '2014-08-20 15:27:46.614576'
+categories_415:
+  id: 415
+  parent_id: 1
+  abstract: f
+  en: Transportation
+  es: Transporte
+  created_at: '2014-08-20 15:27:46.617780'
+  updated_at: '2014-08-20 15:27:46.617780'
+categories_416:
+  id: 416
+  parent_id: 415
+  abstract: f
+  en: Airlines and Aviation Services
+  es: Servicios de Aerolíneas y Aviación
+  created_at: '2014-08-20 15:27:46.620875'
+  updated_at: '2014-08-20 15:27:46.620875'
+categories_417:
+  id: 417
+  parent_id: 415
+  abstract: f
+  en: Gas Stations
+  es: Gasolineras
+  created_at: '2014-08-20 15:27:46.624718'
+  updated_at: '2014-08-20 15:27:46.624718'
+categories_418:
+  id: 418
+  parent_id: 415
+  abstract: f
+  en: Parking
+  es: Estacionamiento
+  created_at: '2014-08-20 15:27:46.628051'
+  updated_at: '2014-08-20 15:27:46.628051'
+categories_419:
+  id: 419
+  parent_id: 415
+  abstract: f
+  en: Public Transportation Services
+  es: Servicios Públicos de Transporte
+  created_at: '2014-08-20 15:27:46.631336'
+  updated_at: '2014-08-20 15:27:46.631336'
+categories_420:
+  id: 420
+  parent_id: 415
+  abstract: f
+  en: Taxi and Car Services
+  es: Taxi y Servicios de Coche
+  created_at: '2014-08-20 15:27:46.634460'
+  updated_at: '2014-08-20 15:27:46.634460'
+categories_421:
+  id: 421
+  parent_id: 420
+  abstract: f
+  en: Car and Truck Rentals
+  es: coches y Alquiler de Camiones
+  created_at: '2014-08-20 15:27:46.638598'
+  updated_at: '2014-08-20 15:27:46.638598'
+categories_422:
+  id: 422
+  parent_id: 420
+  abstract: f
+  en: Charter Buses
+  es: Autobuses Chárter
+  created_at: '2014-08-20 15:27:46.643023'
+  updated_at: '2014-08-20 15:27:46.643023'
+categories_423:
+  id: 423
+  parent_id: 420
+  abstract: f
+  en: Limos and Chauffeurs
+  es: Limusinas y Choferes
+  created_at: '2014-08-20 15:27:46.646157'
+  updated_at: '2014-08-20 15:27:46.646157'
+categories_424:
+  id: 424
+  parent_id: 415
+  abstract: f
+  en: Transport Hubs
+  es: Concentradores de Transporte
+  created_at: '2014-08-20 15:27:46.649514'
+  updated_at: '2014-08-20 15:27:46.649514'
+categories_425:
+  id: 425
+  parent_id: 424
+  abstract: f
+  en: Airports
+  es: Aeropuertos
+  created_at: '2014-08-20 15:27:46.652847'
+  updated_at: '2014-08-20 15:27:46.652847'
+categories_426:
+  id: 426
+  parent_id: 424
+  abstract: f
+  en: Bus Stations
+  es: Estaciones de Autobuses
+  created_at: '2014-08-20 15:27:46.657153'
+  updated_at: '2014-08-20 15:27:46.657153'
+categories_427:
+  id: 427
+  parent_id: 424
+  abstract: f
+  en: Heliports
+  es: Helipuertos
+  created_at: '2014-08-20 15:27:46.661294'
+  updated_at: '2014-08-20 15:27:46.661294'
+categories_428:
+  id: 428
+  parent_id: 424
+  abstract: f
+  en: Ports
+  es: Puertos
+  created_at: '2014-08-20 15:27:46.665222'
+  updated_at: '2014-08-20 15:27:46.665222'
+categories_429:
+  id: 429
+  parent_id: 424
+  abstract: f
+  en: Rail Stations
+  es: Estaciones de ferrocarril
+  created_at: '2014-08-20 15:27:46.668421'
+  updated_at: '2014-08-20 15:27:46.668421'
+categories_430:
+  id: 430
+  parent_id: 1
+  abstract: f
+  en: Travel
+  es: Viaje
+  created_at: '2014-08-20 15:27:46.673273'
+  updated_at: '2014-08-20 15:27:46.673273'
+categories_431:
+  id: 431
+  parent_id: 430
+  abstract: f
+  en: Cruises
+  es: Cruceros
+  created_at: '2014-08-20 15:27:46.676796'
+  updated_at: '2014-08-20 15:27:46.676796'
+categories_432:
+  id: 432
+  parent_id: 430
+  abstract: f
+  en: Lodging
+  es: Alojamiento
+  created_at: '2014-08-20 15:27:46.679916'
+  updated_at: '2014-08-20 15:27:46.679916'
+categories_433:
+  id: 433
+  parent_id: 432
+  abstract: f
+  en: Bed and Breakfasts
+  es: Cama y Desayuno
+  created_at: '2014-08-20 15:27:46.683432'
+  updated_at: '2014-08-20 15:27:46.683432'
+categories_434:
+  id: 434
+  parent_id: 432
+  abstract: f
+  en: Cottages and Cabins
+  es: Casitas y Cabañas
+  created_at: '2014-08-20 15:27:46.686577'
+  updated_at: '2014-08-20 15:27:46.686577'
+categories_435:
+  id: 435
+  parent_id: 432
+  abstract: f
+  en: Hostels
+  es: Albergues
+  created_at: '2014-08-20 15:27:46.690429'
+  updated_at: '2014-08-20 15:27:46.690429'
+categories_436:
+  id: 436
+  parent_id: 432
+  abstract: f
+  en: Hotels and Motels
+  es: Hoteles y Moteles
+  created_at: '2014-08-20 15:27:46.693933'
+  updated_at: '2014-08-20 15:27:46.693933'
+categories_437:
+  id: 437
+  parent_id: 432
+  abstract: f
+  en: Lodges and Vacation Rentals
+  es: Albergues y Alquileres de Vacaciones
+  created_at: '2014-08-20 15:27:46.697103'
+  updated_at: '2014-08-20 15:27:46.697103'
+categories_438:
+  id: 438
+  parent_id: 432
+  abstract: f
+  en: Resorts
+  es: Lugares de Vacaciones
+  created_at: '2014-08-20 15:27:46.700569'
+  updated_at: '2014-08-20 15:27:46.700569'
+categories_439:
+  id: 439
+  parent_id: 430
+  abstract: f
+  en: Tourist Information and Services
+  es: Información Turística y Servicios
+  created_at: '2014-08-20 15:27:46.703901'
+  updated_at: '2014-08-20 15:27:46.703901'
+categories_440:
+  id: 440
+  parent_id: 430
+  abstract: f
+  en: Travel Agents and Tour Operators
+  es: Agentes de Viaje y Operadores Turísticos
+  created_at: '2014-08-20 15:27:46.708733'
+  updated_at: '2014-08-20 15:27:46.708733'
+categories_441:
+  id: 441
+  parent_id: 83
+  abstract: f
+  en: Geriatrics
+  es: Geriatría
+  created_at: '2014-08-20 15:27:46.712100'
+  updated_at: '2014-08-20 15:27:46.712100'
+categories_442:
+  id: 442
+  parent_id: 123
+  abstract: f
+  en: Discount Stores
+  es: Tiendas de Descuento
+  created_at: '2014-08-20 15:27:46.715336'
+  updated_at: '2014-08-20 15:27:46.715336'
+categories_443:
+  id: 443
+  parent_id: 149
+  abstract: f
+  en: Meat and Seafood
+  es: Carne y Marisco
+  created_at: '2014-08-20 15:27:46.718560'
+  updated_at: '2014-08-20 15:27:46.718560'
+categories_444:
+  id: 444
+  parent_id: 123
+  abstract: f
+  en: Office Supplies
+  es: Artículos de Oficina
+  created_at: '2014-08-20 15:27:46.722443'
+  updated_at: '2014-08-20 15:27:46.722443'
+categories_445:
+  id: 445
+  parent_id: 123
+  abstract: f
+  en: Party Supplies
+  es: Artículos de Fiesta
+  created_at: '2014-08-20 15:27:46.725977'
+  updated_at: '2014-08-20 15:27:46.725977'
+categories_446:
+  id: 446
+  parent_id: 177
+  abstract: f
+  en: Career Counseling
+  es: Orientación Profesional
+  created_at: '2014-08-20 15:27:46.729043'
+  updated_at: '2014-08-20 15:27:46.729043'
+categories_447:
+  id: 447
+  parent_id: 177
+  abstract: f
+  en: Construction
+  es: Construcción
+  created_at: '2014-08-20 15:27:46.732286'
+  updated_at: '2014-08-20 15:27:46.732286'
+categories_448:
+  id: 448
+  parent_id: 269
+  abstract: f
+  en: Notary
+  es: Notarios
+  created_at: '2014-08-20 15:27:46.735480'
+  updated_at: '2014-08-20 15:27:46.735480'
+categories_449:
+  id: 449
+  parent_id: 177
+  abstract: f
+  en: Photography
+  es: Fotografía
+  created_at: '2014-08-20 15:27:46.739477'
+  updated_at: '2014-08-20 15:27:46.739477'
+categories_450:
+  id: 450
+  parent_id: 177
+  abstract: f
+  en: Translation Services
+  es: Servicios de Traducción
+  created_at: '2014-08-20 15:27:46.743044'
+  updated_at: '2014-08-20 15:27:46.743044'
+categories_451:
+  id: 451
+  parent_id: 382
+  abstract: f
+  en: Golf Courses
+  es: Campos de Golf
+  created_at: '2014-08-20 15:27:46.746185'
+  updated_at: '2014-08-20 15:27:46.746185'
+categories_452:
+  id: 452
+  parent_id: 408
+  abstract: f
+  en: Surfing
+  es: Surf
+  created_at: '2014-08-20 15:27:46.749616'
+  updated_at: '2014-08-20 15:27:46.749616'
+categories_453:
+  id: 453
+  parent_id: 37
+  abstract: f
+  en: Embassies
+  es: Embajadas
+  created_at: '2014-08-20 15:27:46.752594'
+  updated_at: '2014-08-20 15:27:46.752594'
+categories_454:
+  id: 454
+  parent_id: 460
+  abstract: f
+  en: Infrastructure
+  es: Infraestructura
+  created_at: '2014-08-20 15:27:46.760949'
+  updated_at: '2014-08-20 15:27:46.760949'
+categories_455:
+  id: 455
+  parent_id: 460
+  abstract: f
+  en: Mobile
+  es: Móvil
+  created_at: '2014-08-20 15:27:46.764459'
+  updated_at: '2014-08-20 15:27:46.764459'
+categories_456:
+  id: 456
+  parent_id: 460
+  abstract: f
+  en: Advertising
+  es: Publicidad
+  created_at: '2014-08-20 15:27:46.767779'
+  updated_at: '2014-08-20 15:27:46.767779'
+categories_457:
+  id: 457
+  parent_id: 347
+  abstract: f
+  en: Asian
+  es: Comida Asiática
+  created_at: '2014-08-20 15:27:46.771335'
+  updated_at: '2014-08-20 15:27:46.771335'
+categories_458:
+  id: 458
+  parent_id: 347
+  abstract: f
+  en: Food Trucks
+  es: Camión de Comida
+  created_at: '2014-08-20 15:27:46.774889'
+  updated_at: '2014-08-20 15:27:46.774889'
+categories_459:
+  id: 459
+  parent_id: 415
+  abstract: f
+  en: Rest Areas
+  es: "Áreas de Descanso"
+  created_at: '2014-08-20 15:27:46.778011'
+  updated_at: '2014-08-20 15:27:46.778011'
+categories_460:
+  id: 460
+  parent_id: 177
+  abstract: f
+  en: Technology
+  es: Tecnología
+  created_at: '2014-08-20 15:27:46.781118'
+  updated_at: '2014-08-20 15:27:46.781118'
