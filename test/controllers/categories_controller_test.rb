@@ -79,7 +79,7 @@ class CategoriesControllerTest < ActionController::TestCase
 
   test 'normalized with unassigned categories' do
     ServiceCategory.create!(category: 'this', service: 'foursquare')
-    assert_difference "ServiceCategory.count", 1 do
+    assert_difference 'ServiceCategory.count', 1 do
       get :normalized, service_categories: { foursquare: %w(this that) }
       assert_response :success
       assert_equal 0, assigns(:categories).size
@@ -92,7 +92,7 @@ class CategoriesControllerTest < ActionController::TestCase
       service: 'foursquare',
       category_id: 3
     )
-    assert_difference "ServiceCategory.count", 1 do
+    assert_difference 'ServiceCategory.count', 1 do
       get :normalized, service_categories: { foursquare: %w(this that) }
       assert_response :success
       assert_equal 1, assigns(:categories).size
