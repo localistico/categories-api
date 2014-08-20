@@ -14,7 +14,8 @@ class FactualCategoryLoader
         id: id.to_i,
         parent_id: content['parents'].first.try(:to_i),
         es: content['labels']['es'],
-        en: content['labels']['en']
+        en: content['labels']['en'],
+        abstract: content['abstract']
       }
     end
   end
