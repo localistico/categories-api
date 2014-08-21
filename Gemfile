@@ -11,12 +11,20 @@ gem 'foreman', group: :development
 # Exception notification
 gem 'rollbar', '~> 1.0.0'
 
+# Load from Github for Rails 4.1 support
+gem 'activeadmin', github: 'gregbell/active_admin'
+# Load from Github for compatibility with activeadmin
+gem 'sass-rails', github: 'rails/sass-rails'
+
+# https://github.com/tsechingho/chosen-rails
+gem 'chosen-rails'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
+# gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views

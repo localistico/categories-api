@@ -1,0 +1,11 @@
+<% if @service_category ||= ServiceCategory.pending.first %>
+  <h2>Review the following service category</h2>
+  <%= render 'admin/edit_service_category' %>
+<% else %>
+  <div class="blank_slate_container" id="dashboard_default_message">
+  <span class="blank_slate">
+    <span>No more service categories to review.</span>
+    <small>Whenever we have service categories that have not been mapped to a category they will appear here.</small>
+  </span>
+</div>
+<% end %>

@@ -8,4 +8,9 @@ class Category < ActiveRecord::Base
   validates :en, presence: true
   validates_uniqueness_of :es, scope: :parent_id
   validates_uniqueness_of :en, scope: :parent_id
+
+  def name
+    return en unless parent
+    format '%s (%s)', en, parent.en
+  end
 end

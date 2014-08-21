@@ -1,0 +1,8 @@
+<%= semantic_form_for [:admin, @service_category] do |f| %>
+  <%= f.inputs 'Details' do %>
+    <%= f.input :service, input_html: { disabled: true } %>
+    <%= f.input :category, input_html: { disabled: true } %>
+    <%= f.input :assigned %>
+  <% end %>
+  <%= f.actions %>
+<% end %>

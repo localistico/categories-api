@@ -8,4 +8,10 @@ class ServiceCategory < ActiveRecord::Base
   validates_uniqueness_of :category, scope: :service
 
   after_validation :report_validation_errors_to_rollbar
+
+  scope :pending, -> { where(category_id: nil) }
+
+  def name
+    [service, category].join(' - ')
+  end
 end
