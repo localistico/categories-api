@@ -143,7 +143,7 @@ ActiveAdmin.setup do |config|
   #
   # config.before_filter :do_something_awesome
   config.before_filter do
-    authenticate_or_request_with_http_basic("Authentication required") do |name, password|
+    authenticate_or_request_with_http_basic("Authentication required") do |_name, password|
       password == ENV['ACTIVE_ADMIN_PASSWORD']
     end
   end
