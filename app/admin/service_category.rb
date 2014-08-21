@@ -15,7 +15,7 @@ ActiveAdmin.register ServiceCategory do
     end
   end
 
-  config.sort_order = 'category_id_desc'
+  config.sort_order = 'category_asc'
 
   filter :category_id_null,
          as: :boolean,

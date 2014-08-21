@@ -8,8 +8,16 @@ class ServiceCategory < ActiveRecord::Base
   validates_uniqueness_of :category, scope: :service
 
   after_validation :report_validation_errors_to_rollbar
+  after_save :update_other_categories, if: :category_id_changed?
 
   scope :pending, -> { where(category_id: nil).order('category ASC') }
+
+  def update_other_categories
+    return unless category_id
+    ServiceCategory
+      .where(category: category)
+      .update_all(category_id: category_id)
+  end
 
   def name
     [service, category].join(' - ')
