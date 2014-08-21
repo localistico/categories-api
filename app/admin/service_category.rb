@@ -20,7 +20,7 @@ ActiveAdmin.register ServiceCategory do
   filter :category_id_null,
          as: :boolean,
          label: 'Pending assignation'
-  filter :service
+  filter :service, as: :select
   filter :category
   filter :assigned, multiple: true
 

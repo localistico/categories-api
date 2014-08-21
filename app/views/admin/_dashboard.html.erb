@@ -1,5 +1,5 @@
 <% if @service_category ||= ServiceCategory.pending.first %>
-  <h2>Review the following service category</h2>
+  <h2>Review the following service category (<%= ServiceCategory.pending.count %> pending review)</h2>
   <%= render 'admin/edit_service_category' %>
 <% else %>
   <div class="blank_slate_container" id="dashboard_default_message">
