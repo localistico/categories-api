@@ -9,7 +9,7 @@ class ServiceCategory < ActiveRecord::Base
 
   after_validation :report_validation_errors_to_rollbar
 
-  scope :pending, -> { where(category_id: nil) }
+  scope :pending, -> { where(category_id: nil).order('category ASC') }
 
   def name
     [service, category].join(' - ')
