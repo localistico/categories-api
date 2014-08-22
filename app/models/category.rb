@@ -11,6 +11,6 @@ class Category < ActiveRecord::Base
 
   def name
     return en unless parent
-    format '%s (%s)', en, parent.en
+    format '%s - %s', parent.en, en
   end
 end
