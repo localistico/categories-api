@@ -33,9 +33,7 @@ class CategoriesController < ApiController
   end
 
   def root
-    respond_with(links: {
-      categories: categories_path
-    })
+    respond_with(links: { categories: categories_path })
   end
 
   private
