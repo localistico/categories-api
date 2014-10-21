@@ -32,6 +32,12 @@ class CategoriesController < ApiController
     respond_with @categories
   end
 
+  def root
+    respond_with(links: {
+      categories: categories_path
+    })
+  end
+
   private
 
   def get_category_ids(service, categories)
