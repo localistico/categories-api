@@ -1,0 +1,9 @@
+{
+ "description": "Manage localistico categories",
+ "id": "categories",
+ "links": [{
+   "href": "http://localistico-categories.herokuapp.com",
+   "rel": "self"
+ }],
+ "title": "Categories"
+}

@@ -16,6 +16,14 @@ GIT
       sass-rails
 
 GIT
+  remote: git://github.com/interagent/prmd.git
+  revision: f1afb2623c035486fc0a34968dbec67341d58fcd
+  specs:
+    prmd (0.7.0)
+      erubis (~> 2.7)
+      json_schema (~> 0.3, >= 0.3.1)
+
+GIT
   remote: git://github.com/rails/sass-rails.git
   revision: 423178729e7b84addcee78b33891644b1fc1705b
   specs:
@@ -117,6 +125,7 @@ GEM
     jquery-ui-rails (5.0.0)
       railties (>= 3.2.16)
     json (1.8.1)
+    json_schema (0.4.0)
     kaminari (0.16.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
@@ -228,6 +237,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   pg
+  prmd!
   rails (= 4.1.1)
   rails_12factor
   rollbar (~> 1.0.0)

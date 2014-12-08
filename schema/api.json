@@ -1,0 +1,329 @@
+{
+  "$schema": "http://json-schema.org/draft-04/hyper-schema",
+  "definitions": {
+    "category": {
+      "$schema": "http://json-schema.org/draft-04/hyper-schema",
+      "title": "Categories",
+      "description": "Get information from localistico and services' categories",
+      "definitions": {
+        "category": {
+          "properties": {
+            "id": {
+              "example": 10,
+              "type": [
+                "integer"
+              ],
+              "description": "category id"
+            },
+            "abstract": {
+              "example": false,
+              "type": [
+                "boolean"
+              ],
+              "description": "whether the category is to be ignored or not"
+            },
+            "parent_id": {
+              "example": 1,
+              "type": [
+                "integer"
+              ],
+              "description": "parent category"
+            },
+            "en": {
+              "example": "Indian Restaurant",
+              "type": [
+                "string"
+              ],
+              "description": "Category name in English"
+            },
+            "es": {
+              "example": "Restaurante Indio",
+              "type": [
+                "string"
+              ],
+              "description": "Category name in Spanish"
+            },
+            "created_at": {
+              "$ref": "#/definitions/category/definitions/created_at"
+            },
+            "updated_at": {
+              "$ref": "#/definitions/category/definitions/updated_at"
+            }
+          },
+          "required": [
+            "id",
+            "abstract",
+            "en",
+            "es"
+          ],
+          "type": [
+            "object"
+          ]
+        },
+        "categories": {
+          "items": {
+            "$ref": "#/definitions/category/definitions/category"
+          },
+          "type": [
+            "array"
+          ]
+        },
+        "service_category": {
+          "properties": {
+            "id": {
+              "example": 10,
+              "type": [
+                "integer"
+              ],
+              "description": "service category id"
+            },
+            "category_id": {
+              "example": 1,
+              "type": [
+                "integer"
+              ],
+              "description": "category assigned to this service category"
+            },
+            "service": {
+              "example": "yelp",
+              "type": [
+                "string"
+              ],
+              "description": "Category's service"
+            },
+            "category": {
+              "example": "Indian Restaurant",
+              "type": [
+                "string"
+              ],
+              "description": "Category name"
+            },
+            "created_at": {
+              "$ref": "#/definitions/category/definitions/created_at"
+            },
+            "updated_at": {
+              "$ref": "#/definitions/category/definitions/updated_at"
+            }
+          },
+          "required": [
+            "id",
+            "service",
+            "category",
+            "created_at",
+            "updated_at"
+          ],
+          "type": [
+            "object"
+          ]
+        },
+        "created_at": {
+          "description": "when profile was created",
+          "example": "2012-01-01T12:00:00Z",
+          "format": "date-time",
+          "type": [
+            "string"
+          ]
+        },
+        "updated_at": {
+          "description": "when profile was updated",
+          "example": "2012-01-01T12:00:00Z",
+          "format": "date-time",
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "links": [
+        {
+          "description": "Get all categories",
+          "href": "/categories",
+          "method": "GET",
+          "rel": "all",
+          "title": "All"
+        },
+        {
+          "description": "List existing profiles from a business.",
+          "href": "/categories",
+          "method": "GET",
+          "rel": "selected",
+          "schema": {
+            "properties": {
+              "ids": {
+                "description": "List of IDs of the categories to select",
+                "example": [
+                  10,
+                  24,
+                  144
+                ],
+                "items": {
+                  "type": [
+                    "integer"
+                  ]
+                },
+                "type": [
+                  "array"
+                ]
+              }
+            },
+            "required": [
+              "ids"
+            ],
+            "type": [
+              "object"
+            ]
+          },
+          "title": "Select"
+        },
+        {
+          "description": "Suggest categories based on the ones passed as an argument",
+          "href": "/suggestions",
+          "method": "GET",
+          "rel": "suggestions",
+          "schema": {
+            "properties": {
+              "selected": {
+                "description": "List of IDs of the categories to base the suggestions on.",
+                "example": [
+                  10,
+                  24,
+                  144
+                ],
+                "items": {
+                  "type": [
+                    "integer"
+                  ]
+                },
+                "type": [
+                  "array"
+                ]
+              },
+              "ignored": {
+                "description": "List of IDs of categories to ignore.",
+                "example": [
+                  35,
+                  54,
+                  532,
+                  764
+                ],
+                "items": {
+                  "type": [
+                    "integer"
+                  ]
+                },
+                "type": [
+                  "array"
+                ]
+              },
+              "limit": {
+                "description": "Maximum amount of categories to return",
+                "example": 15,
+                "type": [
+                  "integer"
+                ]
+              }
+            },
+            "type": [
+              "object"
+            ]
+          },
+          "title": "Suggestions"
+        },
+        {
+          "description": "List existing profiles from a business.",
+          "href": "/categories/normalized",
+          "method": "GET",
+          "rel": "normalized",
+          "schema": {
+            "properties": {
+              "service_categories": {
+                "yelp": {
+                  "example": "Indian Restaurant",
+                  "items": "string",
+                  "type": [
+                    "array"
+                  ]
+                },
+                "google": {
+                  "example": "Indian Restaurant",
+                  "items": "string",
+                  "type": [
+                    "array"
+                  ]
+                },
+                "foursquare": {
+                  "example": "Indian Restaurant",
+                  "items": "string",
+                  "type": [
+                    "array"
+                  ]
+                },
+                "facebook": {
+                  "example": "Indian Restaurant",
+                  "items": "string",
+                  "type": [
+                    "array"
+                  ]
+                },
+                "bing": {
+                  "example": "Indian Restaurant",
+                  "items": "string",
+                  "type": [
+                    "array"
+                  ]
+                },
+                "type": [
+                  "object"
+                ]
+              }
+            },
+            "required": [
+              "service_categories"
+            ],
+            "type": [
+              "object"
+            ]
+          },
+          "title": "Normalized"
+        },
+        {
+          "description": "Get all categories",
+          "href": "/categories/{(%23%2Fdefinitions%2Fcategory%2Fdefinitions%2Fservice_category%2Fproperties%2Fservice)}",
+          "method": "GET",
+          "rel": "all",
+          "targetSchema": {
+            "items": {
+              "$ref": "#/definitions/category/definitions/service_category"
+            },
+            "type": [
+              "array"
+            ]
+          },
+          "title": "ServiceAll"
+        }
+      ],
+      "items": {
+        "$ref": "#/definitions/category/definitions/category"
+      },
+      "type": [
+        "array"
+      ]
+    }
+  },
+  "properties": {
+    "category": {
+      "$ref": "#/definitions/category"
+    }
+  },
+  "type": [
+    "object"
+  ],
+  "description": "Manage localistico categories",
+  "id": "categories",
+  "links": [
+    {
+      "href": "http://localistico-categories.herokuapp.com",
+      "rel": "self"
+    }
+  ],
+  "title": "Categories"
+}

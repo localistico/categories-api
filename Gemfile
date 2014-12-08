@@ -14,6 +14,11 @@ gem 'rollbar', '~> 1.0.0'
 # Monitor performance
 gem "skylight"
 
+# Build schema
+group :development do
+  gem 'prmd', github: 'interagent/prmd'
+end
+
 # Load from Github for Rails 4.1 support
 gem 'activeadmin', github: 'gregbell/active_admin'
 # Load from Github for compatibility with activeadmin
