@@ -9,6 +9,11 @@ class CategoriesController < ApiController
     respond_with @categories
   end
 
+  def service
+    @categories = ServiceCategory.where(service: params[:service])
+    respond_with @categories
+  end
+
   def suggestions
     if params[:selected]
       selection = Category.where(parent_id: params[:selected])
