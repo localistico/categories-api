@@ -21,6 +21,15 @@ TODO:
  - Better suggestion of categories based on data about how common is for
    categories to go together.
 
+# Bootstrapping development environment
+
+The usual:
+
+```bash
+cp config/database.yml.example config/database.yml
+bundle install
+rake db:setup
+```
 
 # Combine JSON-Schemas, verify output and generate docs
 
