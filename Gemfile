@@ -9,7 +9,7 @@ gem 'unicorn'
 gem 'foreman', group: :development
 
 # Exception notification
-gem 'rollbar', '~> 1.0.0'
+gem 'rollbar'
 
 # Monitor performance
 gem "skylight"
@@ -63,4 +63,3 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
