@@ -15,14 +15,21 @@ ActiveAdmin.register ServiceCategory do
     end
   end
 
-  config.sort_order = 'category_asc'
-
   filter :category_id_null,
          as: :boolean,
          label: 'Pending assignation'
   filter :service, as: :select
   filter :category
   filter :assigned, multiple: true
+
+  scope :all
+  scope :pending
+  scope :assigned
+  scope :bing
+  scope :facebook
+  scope :foursquare
+  scope :google
+  scope :yelp
 
   index do
     selectable_column
