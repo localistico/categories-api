@@ -10,7 +10,15 @@ class ServiceCategory < ActiveRecord::Base
   after_validation :report_validation_errors_to_rollbar
   after_save :update_other_categories, if: :category_id_changed?
 
-  scope :pending, -> { where(category_id: nil).order('category ASC') }
+  default_scope { order(:category) }
+
+  scope :pending,    -> { where(category_id: nil) }
+  scope :assigned,   -> { where.not(category_id: nil) }
+  scope :bing,       -> { where(service: 'bing') }
+  scope :facebook,   -> { where(service: 'facebook') }
+  scope :foursquare, -> { where(service: 'foursquare') }
+  scope :google,     -> { where(service: 'google') }
+  scope :yelp,       -> { where(service: 'yelp') }
 
   def update_other_categories
     return unless category_id

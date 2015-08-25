@@ -1,6 +1,15 @@
-<% if @service_category ||= ServiceCategory.pending.first %>
-  <h2>Review the following service category (<%= ServiceCategory.pending.count %> pending review)</h2>
-  <%= render 'admin/edit_service_category' %>
+<% if ServiceCategory.pending.any? %>
+  <h3>There are <%= pluralize ServiceCategory.pending.count, 'service category' %> pending review.</h3>
+  <ul>
+    <% %w(bing facebook foursquare google yelp).each do |service| %>
+      <% if (count = ServiceCategory.pending.send(service).count) > 0 %>
+        <li>
+          <%= link_to "#{service.capitalize} (#{count})",
+                      admin_service_categories_path(q: { category_id_null: 1, service_eq: service }, commit: 'Filter') %>
+        </li>
+      <% end %>
+    <% end %>
+  </ul>
 <% else %>
   <div class="blank_slate_container" id="dashboard_default_message">
   <span class="blank_slate">
