@@ -13,7 +13,7 @@ ActiveAdmin.register ServiceCategory do
         # Redirect to the first unassigned service_object for the same service,
         # or back to the dashboard if none
         format.html do
-          next_to_edit = ServiceCategory.where(service: resource.service, category_id: nil).first
+          next_to_edit = ServiceCategory.next_to_edit_for(resource.service)
 
           if next_to_edit
             redirect_to edit_admin_service_category_path(next_to_edit)

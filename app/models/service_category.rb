@@ -10,8 +10,6 @@ class ServiceCategory < ActiveRecord::Base
   after_validation :report_validation_errors_to_rollbar
   after_save :update_other_categories, if: :category_id_changed?
 
-  default_scope { order(:category) }
-
   scope :pending,    -> { where(category_id: nil) }
   scope :assigned,   -> { where.not(category_id: nil) }
   scope :bing,       -> { where(service: 'bing') }
@@ -29,5 +27,13 @@ class ServiceCategory < ActiveRecord::Base
 
   def name
     [service, category].join(' - ')
+  end
+
+  # Returns the next unassigned ServiceCategory for a given service,
+  # so that the process of assigning a Category for each ServiceCategory
+  # is more straightforward
+  def self.next_to_edit_for(service)
+    where(service: service, category_id: nil)
+      .order(id: :desc).first
   end
 end
