@@ -10,7 +10,17 @@ ActiveAdmin.register ServiceCategory do
   controller do
     def update
       update! do |format|
-        format.html { redirect_to admin_dashboard_path }
+        # Redirect to the first unassigned service_object for the same service,
+        # or back to the dashboard if none
+        format.html do
+          next_to_edit = ServiceCategory.where(service: resource.service, category_id: nil).first
+
+          if next_to_edit
+            redirect_to edit_admin_service_category_path(next_to_edit)
+          else
+            redirect_to admin_dashboard_path
+          end
+        end
       end
     end
   end
