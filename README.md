@@ -53,6 +53,6 @@ rake bing:load
 ```
 
 
-[docs]: https://github.com/espresso-team/localistico-categories/blob/master/schema/api.md
-[gopkg]: https://github.com/espresso-team/localistico/tree/master/categories
-[backoffice]: localistico-categories.herokuapp.com/admin
+[docs]: https://github.com/localistico/categories-api/blob/master/schema/api.md
+[gopkg]: https://github.com/localistico/localistico/tree/master/categories
+[backoffice]: http://localistico-categories.herokuapp.com/admin
